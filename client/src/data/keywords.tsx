@@ -512,7 +512,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'ngo',
-    title: 'ngo founder',
+    title: 'NGO founder',
     content: (
       <div>
         <p className="text-white/90 mb-6">
