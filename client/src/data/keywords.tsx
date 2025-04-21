@@ -25,7 +25,7 @@ export const keywords: Keyword[] = [
             </a>
             <p className="text-xs text-white/70 mt-2">Crypto brokerage firm, raised 4+M, 150k users, Superbrand Award</p>
           </div>
-          
+
           <div className="text-center">
             <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
               Cork
@@ -44,7 +44,7 @@ export const keywords: Keyword[] = [
     title: 'advisor',
     content: (
       <div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div>
             <div className="space-y-4">
@@ -57,7 +57,7 @@ export const keywords: Keyword[] = [
                 </a>
                 <p className="text-sm text-white/70 mt-2 pl-2">Central Bank</p>
               </div>
-              
+
               <div className="bg-[#272727]/30 p-4 rounded-lg">
                 <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
                   PwC
@@ -67,7 +67,7 @@ export const keywords: Keyword[] = [
                 </a>
                 <p className="text-sm text-white/70 mt-2 pl-2">Big 4 Accounting & Audit Company</p>
               </div>
-              
+
               <div className="bg-[#272727]/30 p-4 rounded-lg">
                 <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
                   Vacuumlabs
@@ -77,10 +77,10 @@ export const keywords: Keyword[] = [
                 </a>
                 <p className="text-sm text-white/70 mt-2 pl-2">Software house</p>
               </div>
-              
+
             </div>
           </div>
-          
+
           <div>
             <div className="space-y-4">
               <div className="bg-[#272727]/30 p-4 rounded-lg">
@@ -92,7 +92,7 @@ export const keywords: Keyword[] = [
                 </a>
                 <p className="text-sm text-white/70 mt-2 pl-2">Investment Fund</p>
               </div>
-              
+
               <div className="bg-[#272727]/30 p-4 rounded-lg">
                 <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
                   Novis
@@ -102,7 +102,7 @@ export const keywords: Keyword[] = [
                 </a>
                 <p className="text-sm text-white/70 mt-2 pl-2">Insurance Company</p>
               </div>
-              
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-[#272727]/30 p-4 rounded-lg">
                   <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
@@ -110,7 +110,7 @@ export const keywords: Keyword[] = [
                   </span>
                   <p className="text-sm text-white/70 mt-2 pl-2">Crypto Exchange</p>
                 </div>
-                
+
                 <div className="bg-[#272727]/30 p-4 rounded-lg">
                   <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
                     Bethereum
@@ -121,7 +121,7 @@ export const keywords: Keyword[] = [
             </div>
           </div>
         </div>
-        
+
         <div className="bg-[#1a1f2e] p-6 rounded-lg border border-[#2a3042]">
           <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Focus Areas</h4>
           <div className="flex flex-wrap justify-center gap-3">
@@ -146,7 +146,7 @@ export const keywords: Keyword[] = [
         <p className="text-white/90 mb-6">
           As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
         </p>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Conferences:</h4>
@@ -225,7 +225,7 @@ export const keywords: Keyword[] = [
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Universities:</h4>
             <div className="grid grid-cols-2 gap-4">
@@ -275,7 +275,7 @@ export const keywords: Keyword[] = [
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Institutions:</h4>
             <div className="grid grid-cols-2 gap-4">
@@ -326,7 +326,7 @@ export const keywords: Keyword[] = [
             </div>
           </div>
         </div>
-        
+
         <div className="mt-6 p-4 bg-[#272727]/50 rounded-lg">
           <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
@@ -338,7 +338,7 @@ export const keywords: Keyword[] = [
             My presentations focus on Bitcoin, Ethereum, DeFi innovations, and the intersection of technology and economy. I customize each talk to the specific audience, offering both high-level strategic insights and technical deep dives when appropriate.
           </p>
         </div>
-        
+
 
       </div>
     )
@@ -350,35 +350,49 @@ export const keywords: Keyword[] = [
       <div>
         <div className="mt-6 mb-8">
           <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Universities</h4>
-          <div className="grid grid-cols-2 gap-4 mt-4">
-            <div className="text-center">
-              <a href="https://www.stuba.sk/english.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
-                Slovak University of Technology
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                </svg>
-              </a>
-              <div className="mt-2 text-xs text-white/70">
-                <a href="https://github.com/Spider333/Cryptocourse" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA] mr-3">
-                  Course Syllabus
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">Slovak University of Technology</h5>
+                <a href="https://www.stuba.sk/english.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
                 </a>
-                <a href="https://www.youtube.com/watch?v=OQJsV2-8-AU&list=PLWi7l1-iODyGYcbkljDlpW8tNvR2_j56Q" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
-                  Lecture Recordings
+              </div>
+              <div className="mt-3 space-y-2">
+                <div className="flex items-center text-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                  </svg>
+                  <a href="https://github.com/Spider333/Cryptocourse" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
+                    Course Syllabus
+                  </a>
+                </div>
+                <div className="flex items-center text-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                  <a href="https://www.youtube.com/watch?v=OQJsV2-8-AU&list=PLWi7l1-iODyGYcbkljDlpW8tNvR2_j56Q" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
+                    Lecture Recordings
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">University of Economics</h5>
+                <a href="https://euba.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
                 </a>
               </div>
             </div>
-            
-            <div className="text-center">
-              <a href="https://euba.sk/en/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
-                University of Economics
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
-        
+
         <div className="mt-8">
           <h4 className="text-[#00FFAA] font-medium mb-5">Courses</h4>
           <div className="grid grid-cols-1 gap-6">
@@ -401,7 +415,7 @@ export const keywords: Keyword[] = [
                 </a>
               </div>
             </div>
-            
+
             <div className="p-4 bg-[#272727]/30 rounded-lg">
               <div className="mb-3">
                 <span className="text-[#00FFAA] font-medium">Professional Seminars</span>
@@ -455,7 +469,7 @@ export const keywords: Keyword[] = [
               </svg>
             </a>
           </div>
-          
+
           <div className="flex items-center justify-between">
             <div>
               <h4 className="text-white font-medium">University of Nicosia (CY)</h4>
@@ -467,7 +481,7 @@ export const keywords: Keyword[] = [
               </svg>
             </a>
           </div>
-          
+
           <div className="flex items-center justify-between">
             <div>
               <h4 className="text-white font-medium">Pantheon-Assas Paris II (FR)</h4>
@@ -500,7 +514,7 @@ export const keywords: Keyword[] = [
               </svg>
             </a>
           </div>
-          
+
           <div className="text-center">
             <a href="https://blockchainslovakia.sk/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
               Blockchain Slovakia
@@ -509,7 +523,7 @@ export const keywords: Keyword[] = [
               </svg>
             </a>
           </div>
-          
+
           <div className="text-center">
             <a href="https://paralelnapolis.sk/en/paralelna-polis/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
               Paralelna Polis
@@ -527,21 +541,22 @@ export const keywords: Keyword[] = [
     title: 'member',
     content: (
       <div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
             <div className="p-5">
               <div className="h-12 flex items-center justify-center mb-3">
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
-                  <path d="M50 10L90 90H10L50 10Z" fill="white"/>
+                  <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="4"/>
+                  <path d="M30 50L45 65L70 35" stroke="white" strokeWidth="4" fill="none"/>
                 </svg>
               </div>
-              <h5 className="text-center text-white font-medium text-lg mb-3">Paralelná Polis</h5>
+              <h5 className="text-center text-white font-medium text-lg mb-3">Kernel Fellowship</h5>
               <p className="text-white/80 text-sm">
-                A gateway to the parallel world of decentralised technologies. Connecting science, technology & art. Bitcoin cafe and Crypto hub.
+                An educational community exploring the relationship between the human spirit and technology. Building a better web, together.
               </p>
               <div className="mt-4 flex justify-end">
-                <a href="https://paralelnapolis.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                <a href="https://www.kernel.community/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
                   visit 
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -550,7 +565,7 @@ export const keywords: Keyword[] = [
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
             <div className="p-5">
               <div className="h-12 flex items-center justify-center mb-3">
@@ -573,7 +588,7 @@ export const keywords: Keyword[] = [
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
             <div className="p-5">
               <div className="h-12 flex items-center justify-center mb-3">
@@ -601,7 +616,7 @@ export const keywords: Keyword[] = [
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 p-4 bg-[#272727]/50 rounded-lg">
           <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
@@ -662,12 +677,12 @@ export const keywords: Keyword[] = [
             <p className="text-white/80 mb-6">
               With experience across various blockchain ecosystems including Ethereum, Solana, and Polkadot, I've contributed to projects ranging from DeFi protocols to NFT platforms and DAO governance systems.
             </p>
-            
+
             <h4 className="text-lg font-medium text-[#00FFAA] mb-3">Background</h4>
             <p className="text-white/80 mb-6">
               My journey into blockchain began in 2017 during the ICO boom. Since then, I've weathered multiple market cycles while continuing to build and improve my technical skills. I believe that regardless of market conditions, the underlying technology continues to advance and create new possibilities.
             </p>
-            
+
             <h4 className="text-lg font-medium text-[#00FFAA] mb-3">Values</h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
               <div className="border border-[#272727] p-3 rounded-lg">
@@ -706,7 +721,7 @@ export const keywords: Keyword[] = [
         <p className="text-white/90 mb-6">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.
         </p>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-[#272727]/30 rounded-lg p-6">
             <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
@@ -730,7 +745,7 @@ export const keywords: Keyword[] = [
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#272727]/30 rounded-lg p-6">
             <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
@@ -746,7 +761,7 @@ export const keywords: Keyword[] = [
             <p className="text-sm text-white/60 mt-3">Ethereum (ERC-20) address for tokens or NFTs</p>
           </div>
         </div>
-        
+
         <div className="mt-8 p-5 bg-[#272727]/40 rounded-lg border border-[#272727] text-center">
           <p className="text-white/80">
             Whether you have a question about a specific blockchain technology or just want to say hello, 
