@@ -48,78 +48,89 @@ export const keywords: Keyword[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
           <div>
             <h4 className="text-[#00FFAA] font-medium mb-4">Companies I've Advised</h4>
-            <div className="space-y-4">
+            <div className="space-y-5">
               <div className="bg-[#272727]/30 p-4 rounded-lg">
-                <div className="flex flex-wrap gap-2">
-                  <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
-                    Vacuumlabs
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                  <a href="https://aarocapital.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
-                    Aaro Capital
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                  <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
-                    PwC
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                  <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
-                    Slovak National Bank
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                  <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
-                    Novis
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                  <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
-                    Eterbase
-                  </span>
-                  <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
-                    Bethereum
-                  </span>
-                </div>
+                <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                  Vacuumlabs
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p className="text-sm text-white/70 mt-2 pl-2">Software development company specializing in fintech solutions. I advised them on blockchain technology integration and development of crypto-related products.</p>
               </div>
               
-              <blockquote className="border-l-2 border-[#00FFAA] pl-4 mt-6 text-white/70 italic">
-                "The future of finance is permissionless, trustless, and open to all."
-              </blockquote>
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <a href="https://aarocapital.com/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                  Aaro Capital
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p className="text-sm text-white/70 mt-2 pl-2">Investment fund focused on digital assets. Provided advisory on crypto markets, investment strategies, and regulatory frameworks.</p>
+              </div>
+              
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                  PwC
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p className="text-sm text-white/70 mt-2 pl-2">Big 4 accounting and audit company. Consulted on blockchain and cryptocurrency implications for audit practices and financial reporting standards.</p>
+              </div>
+              
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                  Slovak National Bank
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p className="text-sm text-white/70 mt-2 pl-2">Central bank of Slovakia. Advised on central bank digital currency (CBDC) research and blockchain technology implications for monetary policy.</p>
+              </div>
             </div>
           </div>
           
           <div>
-            <h4 className="text-[#00FFAA] font-medium mb-4">Focus Areas</h4>
-            <div className="bg-[#272727]/30 p-4 rounded-lg">
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Blockchain Integration</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Digital Assets</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tokenization</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">DeFi Solutions</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Crypto Compliance</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tech Strategy</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Risk Assessment</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Market Entry</span>
+            <div className="space-y-5">
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                  Novis
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p className="text-sm text-white/70 mt-2 pl-2">Insurance company exploring blockchain applications. Helped develop tokenization strategies for insurance products and smart contract implementation frameworks.</p>
               </div>
-            </div>
-            
-            <div className="mt-5 bg-[#272727]/30 p-4 rounded-lg">
-              <h5 className="text-[#00FFAA] text-sm font-medium mb-3">Industries</h5>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Finance</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Banking</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Insurance</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Software</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Crypto</span>
-                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Investments</span>
+              
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
+                  Eterbase
+                </span>
+                <p className="text-sm text-white/70 mt-2 pl-2">Cryptocurrency exchange based in Europe. Provided advisory on exchange operations, compliance, and security features for their trading platform. (Inactive)</p>
+              </div>
+              
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
+                  Bethereum
+                </span>
+                <p className="text-sm text-white/70 mt-2 pl-2">Blockchain-based betting platform. Consulted on smart contract development, tokenomics, and regulatory considerations for their decentralized betting solution. (Inactive)</p>
+              </div>
+              
+              <div className="mt-6">
+                <h4 className="text-[#00FFAA] font-medium mb-4">Focus Areas</h4>
+                <div className="bg-[#272727]/30 p-4 rounded-lg">
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Blockchain Integration</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Digital Assets</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tokenization</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">DeFi Solutions</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Crypto Compliance</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tech Strategy</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Risk Assessment</span>
+                    <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Market Entry</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -470,13 +481,13 @@ export const keywords: Keyword[] = [
               </ul>
             </div>
             <div className="md:w-1/3 flex flex-col justify-center">
-              <div className="bg-[#272727]/50 rounded-lg p-5 border border-[#272727] text-center">
+              <div className="bg-[#272727]/50 rounded-lg p-5 border border-[#272727]">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 mx-auto text-[#00FFAA] mb-3">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                 </svg>
-                <div className="font-medium mb-2">Learning Philosophy</div>
-                <p className="text-sm text-white/70">
-                  "Education is not the filling of a pail, but the lighting of a fire."
+                <div className="font-medium mb-2 text-center">Lifelong Learning</div>
+                <p className="text-sm text-white/70 text-center">
+                  I am dedicated to continuous education and applying interdisciplinary knowledge to solve complex problems.
                 </p>
               </div>
             </div>
