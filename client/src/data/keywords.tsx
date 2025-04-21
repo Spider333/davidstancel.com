@@ -45,23 +45,9 @@ export const keywords: Keyword[] = [
           I provide strategic advisory and consulting services to companies navigating the blockchain and digital transformation landscape. My expertise spans from technical implementation to business strategy and regulatory compliance.
         </p>
         
-        <div className="mt-6 mb-10 bg-[#1a1f2e] p-6 rounded-lg border border-[#2a3042]">
-          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Focus Areas</h4>
-          <div className="flex flex-wrap justify-center gap-3">
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Blockchain Integration</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Digital Assets</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tokenization</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">DeFi Solutions</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tech Strategy</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Risk Assessment</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Market Entry</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Due Diligence</span>
-          </div>
-        </div>
-        
         <h4 className="text-[#00FFAA] font-medium mb-6 text-center">Companies I've Advised</h4>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div>
             <div className="space-y-4">
               <div className="bg-[#272727]/30 p-4 rounded-lg">
@@ -135,6 +121,20 @@ export const keywords: Keyword[] = [
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        
+        <div className="bg-[#1a1f2e] p-6 rounded-lg border border-[#2a3042]">
+          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Focus Areas</h4>
+          <div className="flex flex-wrap justify-center gap-3">
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Blockchain Integration</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Digital Assets</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tokenization</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">DeFi Solutions</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tech Strategy</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Risk Assessment</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Market Entry</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Due Diligence</span>
           </div>
         </div>
       </div>
@@ -400,11 +400,11 @@ export const keywords: Keyword[] = [
     title: 'student',
     content: (
       <div>
-        <p className="text-white/90 mb-4">
+        <p className="text-white/90 mb-6">
           As a lifelong learner, I believe in continuously expanding my knowledge and challenging myself academically. My education has given me a strong foundation in both policy and technology.
         </p>
         
-        <div className="mt-6 mb-8">
+        <div className="mt-4">
           <h4 className="text-[#00FFAA] font-medium mb-6 text-xl text-center">Education</h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
@@ -449,48 +449,6 @@ export const keywords: Keyword[] = [
               <div className="bg-[#2a3042]/50 p-3 rounded-md">
                 <span className="text-white/80 text-sm font-medium">Degree:</span>
                 <p className="mt-1 text-sm text-white/70">PhD. in Law (in progress)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-10">
-          <h4 className="text-[#00FFAA] font-medium mb-4">Current Areas of Research</h4>
-          <div className="flex flex-col md:flex-row gap-6">
-            <div className="md:w-2/3">
-              <p className="text-white/80 mb-4">
-                My academic background drives me to approach problems with both critical thinking and creative solutions. I'm particularly interested in these emerging fields:
-              </p>
-              <ul className="space-y-2 text-white/80">
-                <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                  </svg>
-                  Zero-knowledge proofs and privacy technologies
-                </li>
-                <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                  </svg>
-                  Cross-chain interoperability and blockchain governance
-                </li>
-                <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                  </svg>
-                  Digital currency policy and regulatory frameworks
-                </li>
-              </ul>
-            </div>
-            <div className="md:w-1/3 flex flex-col justify-center">
-              <div className="bg-[#272727]/50 rounded-lg p-5 border border-[#272727]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 mx-auto text-[#00FFAA] mb-3">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                </svg>
-                <div className="font-medium mb-2 text-center">Lifelong Learning</div>
-                <p className="text-sm text-white/70 text-center">
-                  I am dedicated to continuous education and applying interdisciplinary knowledge to solve complex problems.
-                </p>
               </div>
             </div>
           </div>
