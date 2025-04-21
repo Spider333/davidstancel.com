@@ -8,6 +8,103 @@ export interface Keyword {
 
 export const keywords: Keyword[] = [
   {
+    id: 'ngos',
+    title: 'ngos',
+    content: (
+      <div>
+        <p className="text-white/90 mb-6">
+          I'm actively involved with several non-governmental organizations that align with my values of education, technology, and positive social change. These collaborations allow me to contribute to communities and initiatives I deeply care about.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
+            <div className="p-5">
+              <div className="h-12 flex items-center justify-center mb-3">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
+                  <path d="M50 10L90 90H10L50 10Z" fill="white"/>
+                </svg>
+              </div>
+              <h5 className="text-center text-white font-medium text-lg mb-3">Paralelná Polis</h5>
+              <p className="text-white/80 text-sm">
+                A gateway to the parallel world of decentralised technologies. Connecting science, technology & art. Bitcoin cafe and Crypto hub.
+              </p>
+              <div className="mt-4 flex justify-end">
+                <a href="https://paralelnapolis.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                  visit 
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
+            <div className="p-5">
+              <div className="h-12 flex items-center justify-center mb-3">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
+                  <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="4" fill="none"/>
+                  <path d="M35 50C35 35 65 35 65 50C65 65 35 65 35 50" stroke="white" strokeWidth="4" fill="none"/>
+                </svg>
+              </div>
+              <h5 className="text-center text-white font-medium text-lg mb-3">Global Shapers</h5>
+              <p className="text-white/80 text-sm">
+                The Global Shapers Community is a network of young people driving dialogue, action and change.
+              </p>
+              <div className="mt-4 flex justify-end">
+                <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                  visit 
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
+            <div className="p-5">
+              <div className="h-12 flex items-center justify-center mb-3">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
+                  <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="2" strokeDasharray="4 2" fill="none"/>
+                  <circle cx="35" cy="45" r="5" fill="white"/>
+                  <circle cx="50" cy="35" r="5" fill="white"/>
+                  <circle cx="65" cy="45" r="5" fill="white"/>
+                  <circle cx="55" cy="60" r="5" fill="white"/>
+                  <circle cx="40" cy="65" r="5" fill="white"/>
+                </svg>
+              </div>
+              <h5 className="text-center text-white font-medium text-lg mb-3">SingularityU BA</h5>
+              <p className="text-white/80 text-sm">
+                International NGO focused on education and awareness in the area of exponential technologies.
+              </p>
+              <div className="mt-4 flex justify-end">
+                <a href="https://su.org/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                  visit 
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="mt-8 p-4 bg-[#272727]/50 rounded-lg">
+          <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+            </svg>
+            My Role
+          </h4>
+          <p className="text-sm text-white/80">
+            In these organizations, I serve as an advisor, contributor, and sometimes speaker. I help bridge the gap between technical innovation and practical implementation, while advocating for education and ethical approaches to emerging technologies.
+          </p>
+        </div>
+      </div>
+    )
+  },
+  {
     id: 'blockchain',
     title: 'entrepreneur',
     content: (
@@ -262,88 +359,7 @@ export const keywords: Keyword[] = [
           </p>
         </div>
         
-        <div className="mt-6">
-          <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-            </svg>
-            NGO Involvement
-          </h4>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
-              <div className="p-5">
-                <div className="h-12 flex items-center justify-center mb-3">
-                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
-                    <path d="M50 10L90 90H10L50 10Z" fill="white"/>
-                  </svg>
-                </div>
-                <h5 className="text-center text-white font-medium text-lg mb-3">Paralelná Polis</h5>
-                <p className="text-white/80 text-sm">
-                  A gateway to the parallel world of decentralised technologies. Connecting science, technology & art. Bitcoin cafe and Crypto hub.
-                </p>
-                <div className="mt-4 flex justify-end">
-                  <a href="#" className="text-[#00FFAA] text-sm flex items-center hover:underline">
-                    visit 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
-              <div className="p-5">
-                <div className="h-12 flex items-center justify-center mb-3">
-                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
-                    <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="4" fill="none"/>
-                    <path d="M35 50C35 35 65 35 65 50C65 65 35 65 35 50" stroke="white" strokeWidth="4" fill="none"/>
-                  </svg>
-                </div>
-                <h5 className="text-center text-white font-medium text-lg mb-3">Global Shapers</h5>
-                <p className="text-white/80 text-sm">
-                  The Global Shapers Community is a network of young people driving dialogue, action and change.
-                </p>
-                <div className="mt-4 flex justify-end">
-                  <a href="#" className="text-[#00FFAA] text-sm flex items-center hover:underline">
-                    visit 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
-              <div className="p-5">
-                <div className="h-12 flex items-center justify-center mb-3">
-                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-10 w-10">
-                    <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="2" strokeDasharray="4 2" fill="none"/>
-                    <circle cx="35" cy="45" r="5" fill="white"/>
-                    <circle cx="50" cy="35" r="5" fill="white"/>
-                    <circle cx="65" cy="45" r="5" fill="white"/>
-                    <circle cx="55" cy="60" r="5" fill="white"/>
-                    <circle cx="40" cy="65" r="5" fill="white"/>
-                  </svg>
-                </div>
-                <h5 className="text-center text-white font-medium text-lg mb-3">SingularityU BA</h5>
-                <p className="text-white/80 text-sm">
-                  International NGO focused on education and awareness in the area of exponential technologies.
-                </p>
-                <div className="mt-4 flex justify-end">
-                  <a href="#" className="text-[#00FFAA] text-sm flex items-center hover:underline">
-                    visit 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     )
   },
