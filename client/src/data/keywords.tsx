@@ -73,160 +73,180 @@ export const keywords: Keyword[] = [
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Conferences:</h4>
-            <ul className="space-y-2 text-white/80 text-sm">
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                InvestSummit (2022)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                UTXO (2022)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Readycon (2021/2022)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                WeAreDevelopers (2021)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Aeternity Universe One Conference (2019)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                FuturePort Prague (2019/2021)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                IXPO (2019)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                IBM Perspective (2019)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Globsec (2018)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Blockwalks (2018,2019)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                FutureNow Conf (2018)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                XIXOIO Cryptobanking Conference (2018)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Cybercentral (2018, 2019)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Softecon (2018)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Night of Chances (2018)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Hackers Congress Paralelni Polis (2016,2017)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                LibertyCon (2017)
-              </li>
-            </ul>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    InvestSummit (2022)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    UTXO (2022)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Readycon (2021/2022)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    WeAreDevelopers (2021)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Aeternity Universe (2019)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    FuturePort Prague (2019/2021)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    IXPO (2019)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    IBM Perspective (2019)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Globsec (2018)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Blockwalks (2018,2019)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    FutureNow Conf (2018)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    XIXOIO Conference (2018)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Cybercentral (2018, 2019)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Softecon (2018)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Hackers Congress (2016,2017)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    LibertyCon (2017)
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Universities:</h4>
-            <ul className="space-y-2 text-white/80 text-sm">
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Charles University (CZ)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Masaryk University (CZ)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Slovak University of Technology (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Comenius University (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                University of Economics (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Matej Bel University (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                University of Zilina (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Universidad Rey Juan Carlos (ES)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                St. Petersburg University (RU)
-              </li>
-            </ul>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Charles University (CZ)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Masaryk University (CZ)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Slovak University of Technology (SK)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Comenius University (SK)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    University of Economics (SK)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Matej Bel University (SK)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    University of Zilina (SK)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Universidad Rey Juan Carlos (ES)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    St. Petersburg University (RU)
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Institutions:</h4>
-            <ul className="space-y-2 text-white/80 text-sm">
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                European Parliament
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Slovak National Bank
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Government of the Czech Republic
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Ministry of Finance (SK)
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                Slovak Banking Association
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                IBM
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                ČSOB
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                KPMG, PwC, BDO, EY
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#00FFAA] mr-2">•</span>
-                O2 Slovakia
-              </li>
-            </ul>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    European Parliament
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Slovak National Bank
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Government of the Czech Republic
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Ministry of Finance (SK)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    Slovak Banking Association
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="space-y-2 text-white/80 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    IBM
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    ČSOB
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    KPMG, PwC, BDO, EY
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
+                    O2 Slovakia
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         
