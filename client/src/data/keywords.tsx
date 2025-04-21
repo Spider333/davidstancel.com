@@ -470,7 +470,7 @@ export const keywords: Keyword[] = [
 
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="text-white font-medium">Pantheon-Assas Paris II (FR)</h4>
+              <h4 className="text-white font-medium">Sorbonne Law School (FR)</h4>
               <p className="text-sm text-white/70">PhD. in Law (in progress)</p>
             </div>
             <a href="https://www.u-paris2.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
@@ -720,8 +720,7 @@ export const keywords: Keyword[] = [
               <div className="flex items-center">
                 <span className="text-sm text-white/80 font-mono">Email:</span>
                 <a href="mailto:youremail@example.com" className="ml-3 text-[#00FFAA] hover:underline">youremail@example.com</a>
-              </div>
-              <div className="flex items-center">
+              </div>              <div className="flex items-center">
                 <span className="text-sm text-white/80 font-mono">Twitter:</span>
                 <a href="https://twitter.com/yourusername" className="ml-3 text-[#00FFAA] hover:underline">@yourusername</a>
               </div>
