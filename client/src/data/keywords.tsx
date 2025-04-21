@@ -349,46 +349,32 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <div className="mt-6 mb-8">
-          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Universities</h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
-              <div className="mb-3 flex justify-between items-start">
+          <h4 className="text-[#00FFAA] font-medium mb-4">Universities</h4>
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div>
                 <h5 className="text-white font-medium">Slovak University of Technology</h5>
-                <a href="https://www.stuba.sk/english.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-              <div className="mt-3 space-y-2">
-                <div className="flex items-center text-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                  </svg>
-                  <a href="https://github.com/Spider333/Cryptocourse" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
-                    Course Syllabus
-                  </a>
-                </div>
-                <div className="flex items-center text-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                  </svg>
-                  <a href="https://www.youtube.com/watch?v=OQJsV2-8-AU&list=PLWi7l1-iODyGYcbkljDlpW8tNvR2_j56Q" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
-                    Lecture Recordings
-                  </a>
+                <div className="space-x-4 mt-2">
+                  <a href="https://github.com/Spider333/Cryptocourse" target="_blank" rel="noopener noreferrer" className="text-sm text-white/70 hover:text-[#00FFAA]">Course Syllabus</a>
+                  <a href="https://www.youtube.com/watch?v=OQJsV2-8-AU&list=PLWi7l1-iODyGYcbkljDlpW8tNvR2_j56Q" target="_blank" rel="noopener noreferrer" className="text-sm text-white/70 hover:text-[#00FFAA]">Lecture Recordings</a>
                 </div>
               </div>
+              <a href="https://www.stuba.sk/english.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
             </div>
 
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
-              <div className="mb-3 flex justify-between items-start">
+            <div className="flex items-center justify-between">
+              <div>
                 <h5 className="text-white font-medium">University of Economics</h5>
-                <a href="https://euba.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
               </div>
+              <a href="https://euba.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
