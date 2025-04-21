@@ -511,6 +511,45 @@ export const keywords: Keyword[] = [
     )
   },
   {
+    id: 'ngo',
+    title: 'ngo founder',
+    content: (
+      <div>
+        <p className="text-white/90 mb-6">
+          I cofounded multiple educational NGOs such as Students for Liberty (CZ), Blockchain Slovakia, and Paralelna Polis that provided education in the area of Crypto, Economics, & Technology.
+        </p>
+        <div className="grid grid-cols-3 gap-4 mt-4">
+          <div className="text-center">
+            <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Students for Liberty
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+          
+          <div className="text-center">
+            <a href="https://blockchainslovakia.sk/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Blockchain Slovakia
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+          
+          <div className="text-center">
+            <a href="https://paralelnapolis.sk/en/paralelna-polis/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Paralelna Polis
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  },
+  {
     id: 'member',
     title: 'member',
     content: (
