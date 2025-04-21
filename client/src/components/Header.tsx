@@ -11,9 +11,12 @@ export default function Header() {
           </h1>
         </div>
         <div className="hidden sm:flex space-x-6 text-sm">
-          <Link href="#contact" className="text-white/70 hover:text-[#00FFAA] transition-colors">
-            cd ~/contact
-          </Link>
+          <a href="https://coinstory.tech" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#00FFAA] transition-colors flex items-center">
+            <span className="mr-1">📖</span> my Book
+          </a>
+          <a href="https://davidstancel.substack.com" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#00FFAA] transition-colors flex items-center">
+            <span className="mr-1">✏️</span> Blog
+          </a>
         </div>
       </div>
     </header>
