@@ -457,9 +457,6 @@ export const keywords: Keyword[] = [
     title: 'student',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          Education has been a cornerstone of my journey in blockchain and technology.
-        </p>
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <div>
