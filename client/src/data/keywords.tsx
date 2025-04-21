@@ -457,54 +457,44 @@ export const keywords: Keyword[] = [
     title: 'student',
     content: (
       <div>
-        
-        <div className="mt-4">
-          <h4 className="text-[#00FFAA] font-medium mb-6 text-xl text-center">Education</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
-              <div className="mb-3 flex justify-between items-start">
-                <h5 className="text-white font-medium">Masaryk University (CZ)</h5>
-                <a href="https://www.muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-              <div className="bg-[#2a3042]/50 p-3 rounded-md">
-                <span className="text-white/80 text-sm font-medium">Degree:</span>
-                <p className="mt-1 text-sm text-white/70">Bc. in International Affairs & Economic Policy</p>
-              </div>
+        <p className="text-white/90 mb-6">
+          Education has been a cornerstone of my journey in blockchain and technology.
+        </p>
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className="text-white font-medium">Masaryk University (CZ)</h4>
+              <p className="text-sm text-white/70">Bc. in International Affairs & Economic Policy</p>
             </div>
-            
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
-              <div className="mb-3 flex justify-between items-start">
-                <h5 className="text-white font-medium">University of Nicosia (CY)</h5>
-                <a href="https://www.unic.ac.cy/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-              <div className="bg-[#2a3042]/50 p-3 rounded-md">
-                <span className="text-white/80 text-sm font-medium">Degree:</span>
-                <p className="mt-1 text-sm text-white/70">MSc. in Digital Currencies</p>
-              </div>
+            <a href="https://www.muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className="text-white font-medium">University of Nicosia (CY)</h4>
+              <p className="text-sm text-white/70">MSc. in Digital Currencies</p>
             </div>
-            
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
-              <div className="mb-3 flex justify-between items-start">
-                <h5 className="text-white font-medium">Pantheon-Assas Paris II (FR)</h5>
-                <a href="https://www.u-paris2.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-              <div className="bg-[#2a3042]/50 p-3 rounded-md">
-                <span className="text-white/80 text-sm font-medium">Degree:</span>
-                <p className="mt-1 text-sm text-white/70">PhD. in Law (in progress)</p>
-              </div>
+            <a href="https://www.unic.ac.cy/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className="text-white font-medium">Pantheon-Assas Paris II (FR)</h4>
+              <p className="text-sm text-white/70">PhD. in Law (in progress)</p>
             </div>
+            <a href="https://www.u-paris2.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
