@@ -139,19 +139,100 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-4">
-          Decentralized Finance is revolutionizing traditional financial systems. I've been actively researching and developing DeFi protocols since the "DeFi summer" of 2020.
+          I provide strategic advisory and consulting services to companies navigating the blockchain and digital transformation landscape. My expertise spans from technical implementation to business strategy and regulatory compliance.
         </p>
-        <div className="bg-[#272727]/40 rounded-lg p-4 mt-4">
-          <h4 className="text-[#00FFAA] font-medium mb-3">Key DeFi Concepts I Work With</h4>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">AMMs</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Yield Farming</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Lending Protocols</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Liquidity Pools</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Stablecoins</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Synthetics</div>
+        
+        <div className="mt-6">
+          <h4 className="text-[#00FFAA] font-medium mb-5">Companies I've Advised</h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">Vacuumlabs</h5>
+              <p className="text-sm text-white/70 mb-3">Software house</p>
+              <div className="flex justify-end">
+                <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
+                  website
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">Aaro Capital</h5>
+              <p className="text-sm text-white/70 mb-3">Investment Fund</p>
+              <div className="flex justify-end">
+                <a href="https://aarocapital.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
+                  website
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">PwC</h5>
+              <p className="text-sm text-white/70 mb-3">Big 4 Accounting & Audit Company</p>
+              <div className="flex justify-end">
+                <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
+                  website
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">Novis</h5>
+              <p className="text-sm text-white/70 mb-3">Insurance Company</p>
+              <div className="flex justify-end">
+                <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
+                  website
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">Eterbase</h5>
+              <p className="text-sm text-white/70 mb-3">Crypto Exchange</p>
+              <div className="flex justify-end">
+                <a href="#" className="text-[#00FFAA]/50 text-xs flex items-center pointer-events-none">
+                  inactive
+                </a>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
+              <h5 className="font-medium mb-2 text-white">Bethereum</h5>
+              <p className="text-sm text-white/70 mb-3">Smart Contract Betting Platform</p>
+              <div className="flex justify-end">
+                <a href="#" className="text-[#00FFAA]/50 text-xs flex items-center pointer-events-none">
+                  inactive
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        
+        <div className="mt-8 bg-[#272727]/40 rounded-lg p-5">
+          <h4 className="text-[#00FFAA] font-medium mb-3">Advisory Focus Areas</h4>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Blockchain Integration</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Digital Assets</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Tokenization</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">DeFi Solutions</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Crypto Compliance</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Tech Strategy</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Risk Assessment</div>
+            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Market Entry</div>
+          </div>
+        </div>
+        
         <blockquote className="border-l-2 border-[#00FFAA] pl-4 mt-6 text-white/70 italic">
           "The future of finance is permissionless, trustless, and open to all."
         </blockquote>
