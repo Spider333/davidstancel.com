@@ -147,6 +147,60 @@ export const keywords: Keyword[] = [
           As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
         </p>
 
+        <div className="mb-10">
+          <h4 className="text-[#00FFAA] font-medium mb-4">Interviews</h4>
+          <div className="grid grid-cols-1 gap-3">
+            <a href="https://startitstories.com/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              StartitUP Interview
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div className="mb-10">
+          <h4 className="text-[#00FFAA] font-medium mb-4">Talks</h4>
+          <div className="grid grid-cols-1 gap-3">
+            <a href="https://www.futureport.sk/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              FuturePort - Evolution of Cryptocurrencies
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <a href="https://utxo.cz/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              UTXO Conference Talk
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <a href="https://blockwalks.com/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              Blockwalks Conference Talk
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div className="mb-6">
+          <h4 className="text-[#00FFAA] font-medium mb-4">Discussions</h4>
+          <div className="grid grid-cols-1 gap-3">
+            <a href="https://blockwalks.com/speakers/nick-szabo/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              Blockwalks Discussion with Nick Szabo
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <a href="https://utxo.cz/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+              UTXO Panel Discussion
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
           <div className="bg-[#272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Conferences:</h4>
