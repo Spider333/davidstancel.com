@@ -8,8 +8,8 @@ export interface Keyword {
 
 export const keywords: Keyword[] = [
   {
-    id: 'ngos',
-    title: 'ngos',
+    id: 'member',
+    title: 'member of',
     content: (
       <div>
         <p className="text-white/90 mb-6">
