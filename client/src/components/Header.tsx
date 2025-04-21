@@ -7,9 +7,8 @@ export default function Header() {
         <div className="flex-shrink-0">
           <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
             <span className="text-[#00FFAA] mr-2">~</span>
-            <span className="cursor-blink">yourusername</span>
+            <span className="cursor-blink">David Stancel</span>
           </h1>
-          <p className="text-sm text-white/70 mt-1">Crypto & Tech Enthusiast</p>
         </div>
         <div className="hidden sm:flex space-x-6 text-sm">
           <Link href="#about" className="text-white/70 hover:text-[#00FFAA] transition-colors">

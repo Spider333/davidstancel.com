@@ -8,7 +8,7 @@ interface SEOProps {
 }
 
 export function SEO({ 
-  title = "Your Name | Crypto & Tech Enthusiast",
+  title = "David Stancel",
   description = "Personal website with expertise in cryptocurrency, blockchain technology, and digital innovation",
   keywords = "crypto, blockchain, technology, personal website, digital innovation, web3, defi, nfts",
   image
@@ -33,7 +33,7 @@ export function SEO({
       
       {/* Additional SEO */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Your Name" />
+      <meta name="author" content="David Stancel" />
     </Helmet>
   );
 }
