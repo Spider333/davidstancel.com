@@ -362,6 +362,24 @@ export const keywords: Keyword[] = [
                   </svg>
                 </a>
               </div>
+              <div className="mt-3 space-y-2">
+                <div className="flex items-center text-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                  </svg>
+                  <a href="https://github.com/Spider333/Cryptocourse" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
+                    Course Syllabus
+                  </a>
+                </div>
+                <div className="flex items-center text-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 mr-2 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                  <a href="https://www.youtube.com/watch?v=OQJsV2-8-AU&list=PLWi7l1-iODyGYcbkljDlpW8tNvR2_j56Q" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00FFAA]">
+                    Lecture Recordings
+                  </a>
+                </div>
+              </div>
             </div>
             
             <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
