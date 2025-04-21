@@ -23,7 +23,7 @@ export const keywords: Keyword[] = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
-            <p className="text-xs text-white/70 mt-2">Raised 4+M, 150k users, Superbrand Award</p>
+            <p className="text-xs text-white/70 mt-2">Crypto brokerage firm, raised 4+M, 150k users, Superbrand Award</p>
           </div>
           
           <div className="text-center">
@@ -33,6 +33,7 @@ export const keywords: Keyword[] = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
+            <p className="text-xs text-white/70 mt-2">Novel financial DeFi primitive, raised 7M, incl. a16Z</p>
           </div>
         </div>
       </div>
