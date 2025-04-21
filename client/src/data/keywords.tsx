@@ -52,7 +52,6 @@ export const keywords: Keyword[] = [
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Digital Assets</span>
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tokenization</span>
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">DeFi Solutions</span>
-            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Crypto Compliance</span>
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Tech Strategy</span>
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Risk Assessment</span>
             <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Market Entry</span>
@@ -147,7 +146,7 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on innovation, digital transformation, and emerging technologies.
+          As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
         </p>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
@@ -338,7 +337,7 @@ export const keywords: Keyword[] = [
             Speaking Topics
           </h4>
           <p className="text-sm text-white/80">
-            My presentations focus on digital innovation, future technologies, and their impact on business and society. I customize each talk to the specific audience, offering both high-level strategic insights and technical deep dives when appropriate.
+            My presentations focus on Bitcoin, Ethereum, DeFi innovations, and the intersection of technology and economy. I customize each talk to the specific audience, offering both high-level strategic insights and technical deep dives when appropriate.
           </p>
         </div>
         
