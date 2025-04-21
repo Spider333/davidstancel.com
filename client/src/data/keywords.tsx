@@ -692,9 +692,7 @@ export const keywords: Keyword[] = [
     title: 'contact',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.
-        </p>
+
 
         <div className="bg-[#272727]/30 rounded-lg p-6 max-w-xl mx-auto">
           <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
@@ -704,10 +702,7 @@ export const keywords: Keyword[] = [
             Get in Touch
           </h4>
           <div className="space-y-4">
-            <div className="flex items-center">
-              <span className="text-sm text-white/80 font-mono">Email:</span>
-              <a href="mailto:youremail@example.com" className="ml-3 text-[#00FFAA] hover:underline">youremail@example.com</a>
-            </div>            
+
             <div className="flex items-center">
               <span className="text-sm text-white/80 font-mono">Twitter:</span>
               <a href="https://x.com/stancel_david" className="ml-3 text-[#00FFAA] hover:underline">@stancel_david</a>
