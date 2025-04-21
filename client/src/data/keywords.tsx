@@ -350,46 +350,77 @@ export const keywords: Keyword[] = [
     title: 'educator',
     content: (
       <div>
-        <p className="text-white/90 mb-4">
-          Non-Fungible Tokens represent the intersection of blockchain technology and digital ownership. I've been exploring the innovative applications of NFTs beyond digital art.
+        <p className="text-white/90 mb-6">
+          I'm passionate about sharing knowledge in the field of blockchain, cryptocurrency, and digital assets. I've developed courses and led seminars for both academic institutions and private organizations.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-          <div>
-            <h4 className="text-[#00FFAA] font-medium mb-3">Beyond PFPs</h4>
-            <ul className="space-y-2 text-white/80">
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2 mt-0.5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                </svg>
-                Digital identity and reputation systems
-              </li>
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2 mt-0.5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                </svg>
-                Real-world asset tokenization
-              </li>
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2 mt-0.5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                </svg>
-                Gaming and metaverse applications
-              </li>
-              <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2 mt-0.5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                </svg>
-                Membership and access tokens
-              </li>
-            </ul>
-          </div>
-          <div className="bg-[#272727]/30 p-5 rounded-lg relative overflow-hidden">
-            <div className="text-sm text-white/70 mb-1">gm.sol</div>
-            <div className="font-mono text-xs bg-[#272727] p-3 rounded overflow-x-auto">
-              <pre><code>{"// SPDX-License-Identifier: MIT\nfunction mint(address to) public {\n   require(eligibleToMint[to], \"Not eligible\");\n   uint256 tokenId = _nextTokenId++;\n   _safeMint(to, tokenId);\n   eligibleToMint[to] = false;\n}"}</code></pre>
+        <div className="mt-6 mb-8">
+          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Academic Teaching</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">Slovak University of Technology</h5>
+                <a href="https://www.stuba.sk/english.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+              <p className="text-sm text-white/80">
+                Teaching blockchain technology fundamentals and applications, focusing on technical aspects of cryptocurrency ecosystems.
+              </p>
             </div>
-            <p className="mt-3 text-sm text-white/80 italic">A snippet from one of my NFT smart contracts</p>
+            
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">University of Economics</h5>
+                <a href="https://euba.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+              <p className="text-sm text-white/80">
+                Leading courses on cryptocurrency markets, tokenomics, and the economic implications of blockchain technology.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="mt-8">
+          <h4 className="text-[#00FFAA] font-medium mb-5">Courses and Seminars</h4>
+          <div className="grid grid-cols-1 gap-6">
+            <div className="p-4 bg-[#272727]/30 rounded-lg">
+              <div className="mb-3">
+                <span className="text-white font-medium">Original Courses (in Slovak)</span>
+              </div>
+              <p className="text-sm text-white/80 mb-4">
+                I've created two comprehensive courses in the Slovak language, teaching blockchain fundamentals, cryptocurrency concepts, and practical applications of digital assets.
+              </p>
+            </div>
+            
+            <div className="p-4 bg-[#272727]/30 rounded-lg">
+              <div className="mb-3">
+                <span className="text-white font-medium">Professional Seminars</span>
+              </div>
+              <p className="text-sm text-white/80">
+                I've led specialized seminars on a wide variety of crypto topics for organizations including:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
+                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">Slovak National Bank</div>
+                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">Minitech MBA</div>
+                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">O2</div>
+                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">ČSOB and other private banks</div>
+              </div>
+            </div>
+            
+            <div className="bg-[#272727]/30 p-5 rounded-lg relative overflow-hidden">
+              <div className="text-sm text-white/70 mb-1">blockchain_lecture.sol</div>
+              <div className="font-mono text-xs bg-[#272727] p-3 rounded overflow-x-auto">
+                <pre><code>{"// SPDX-License-Identifier: MIT\nfunction understandBlockchain() public {\n   require(attentive == true, \"Pay attention\");\n   knowledge++;\n   if(knowledge > threshold) {\n      emit Enlightened(msg.sender);\n   }\n}"}</code></pre>
+              </div>
+              <p className="mt-3 text-sm text-white/80 italic">A light-hearted approach to learning blockchain concepts</p>
+            </div>
           </div>
         </div>
       </div>
