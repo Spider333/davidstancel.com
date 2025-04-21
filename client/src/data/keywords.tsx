@@ -13,9 +13,9 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          My first company was in NFTs, and an utter failure. The other two went quite better.
+          My first company was in NFTs, and an utter failure. The other three went quite better.
         </p>
-        <div className="grid grid-cols-2 gap-4 mt-4">
+        <div className="grid grid-cols-3 gap-4 mt-4">
           <div className="text-center">
             <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
               Fumbi
@@ -34,6 +34,16 @@ export const keywords: Keyword[] = [
               </svg>
             </a>
             <p className="text-xs text-white/70 mt-2">Novel financial DeFi primitive, raised 7M, incl. a16Z</p>
+          </div>
+
+          <div className="text-center">
+            <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Amagi Labs
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <p className="text-xs text-white/70 mt-2">Web 3 consulting agency</p>
           </div>
         </div>
       </div>
