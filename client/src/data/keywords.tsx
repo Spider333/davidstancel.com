@@ -384,9 +384,20 @@ export const keywords: Keyword[] = [
               <div className="mb-3">
                 <span className="text-white font-medium">Original Courses (in Slovak)</span>
               </div>
-              <p className="text-sm text-white/80 mb-4">
-                I've created two courses in Slovak language.
-              </p>
+              <div className="grid grid-cols-1 gap-2 mt-3">
+                <a href="https://skillmea.sk/online-kurzy/ethereum-defi-nft-a-metaverse" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  Ethereum, DeFi, NFT & Metaverse
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <a href="https://skillmea.sk/online-kurzy/uvod-do-kryptomien" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  Introduction to Cryptocurrencies
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
             </div>
             
             <div className="p-4 bg-[#272727]/30 rounded-lg">
