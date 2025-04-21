@@ -41,117 +41,89 @@ export const keywords: Keyword[] = [
     title: 'advisor',
     content: (
       <div>
-        <p className="text-white/90 mb-4">
+        <p className="text-white/90 mb-6">
           I provide strategic advisory and consulting services to companies navigating the blockchain and digital transformation landscape. My expertise spans from technical implementation to business strategy and regulatory compliance.
         </p>
         
-        <div className="mt-6">
-          <h4 className="text-[#00FFAA] font-medium mb-5">Companies I've Advised</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Vacuumlabs</h5>
-              <p className="text-sm text-white/70 mb-3">Software house</p>
-              <div className="flex justify-end">
-                <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
-                  website
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+          <div>
+            <h4 className="text-[#00FFAA] font-medium mb-4">Companies I've Advised</h4>
+            <div className="space-y-4">
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <div className="flex flex-wrap gap-2">
+                  <a href="https://vacuumlabs.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                    Vacuumlabs
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                  <a href="https://aarocapital.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                    Aaro Capital
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                  <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                    PwC
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                  <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                    Slovak National Bank
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                  <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center hover:bg-[#272727] transition-colors">
+                    Novis
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </a>
+                  <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
+                    Eterbase
+                  </span>
+                  <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
+                    Bethereum
+                  </span>
+                </div>
+              </div>
+              
+              <blockquote className="border-l-2 border-[#00FFAA] pl-4 mt-6 text-white/70 italic">
+                "The future of finance is permissionless, trustless, and open to all."
+              </blockquote>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="text-[#00FFAA] font-medium mb-4">Focus Areas</h4>
+            <div className="bg-[#272727]/30 p-4 rounded-lg">
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Blockchain Integration</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Digital Assets</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tokenization</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">DeFi Solutions</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Crypto Compliance</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Tech Strategy</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Risk Assessment</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Market Entry</span>
               </div>
             </div>
             
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Aaro Capital</h5>
-              <p className="text-sm text-white/70 mb-3">Investment Fund</p>
-              <div className="flex justify-end">
-                <a href="https://aarocapital.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
-                  website
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">PwC</h5>
-              <p className="text-sm text-white/70 mb-3">Big 4 Accounting & Audit Company</p>
-              <div className="flex justify-end">
-                <a href="https://www.pwc.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
-                  website
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Slovak National Bank</h5>
-              <p className="text-sm text-white/70 mb-3">Central Bank</p>
-              <div className="flex justify-end">
-                <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
-                  website
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Novis</h5>
-              <p className="text-sm text-white/70 mb-3">Insurance Company</p>
-              <div className="flex justify-end">
-                <a href="https://www.novis.eu/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-xs hover:underline flex items-center">
-                  website
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Eterbase</h5>
-              <p className="text-sm text-white/70 mb-3">Crypto Exchange</p>
-              <div className="flex justify-end">
-                <a href="https://eterbase.com" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]/50 text-xs flex items-center pointer-events-none">
-                  inactive
-                </a>
-              </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg border border-[#444]">
-              <h5 className="font-medium mb-2 text-white">Bethereum</h5>
-              <p className="text-sm text-white/70 mb-3">Smart Contract Betting Platform</p>
-              <div className="flex justify-end">
-                <a href="https://bethereum.com" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]/50 text-xs flex items-center pointer-events-none">
-                  inactive
-                </a>
+            <div className="mt-5 bg-[#272727]/30 p-4 rounded-lg">
+              <h5 className="text-[#00FFAA] text-sm font-medium mb-3">Industries</h5>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Finance</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Banking</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Insurance</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Software</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Crypto</span>
+                <span className="px-3 py-1.5 bg-[#272727]/60 rounded text-sm">Investments</span>
               </div>
             </div>
           </div>
         </div>
-        
-        <div className="mt-8 bg-[#272727]/40 rounded-lg p-5">
-          <h4 className="text-[#00FFAA] font-medium mb-3">Advisory Focus Areas</h4>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Blockchain Integration</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Digital Assets</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Tokenization</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">DeFi Solutions</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Crypto Compliance</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Tech Strategy</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Risk Assessment</div>
-            <div className="bg-[#272727]/60 rounded p-2 text-sm text-center">Market Entry</div>
-          </div>
-        </div>
-        
-        <blockquote className="border-l-2 border-[#00FFAA] pl-4 mt-6 text-white/70 italic">
-          "The future of finance is permissionless, trustless, and open to all."
-        </blockquote>
       </div>
     )
   },
