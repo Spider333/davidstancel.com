@@ -11,9 +11,6 @@ export default function Header() {
           </h1>
         </div>
         <div className="hidden sm:flex space-x-6 text-sm">
-          <Link href="#about" className="text-white/70 hover:text-[#00FFAA] transition-colors">
-            cd ~/about
-          </Link>
           <Link href="#contact" className="text-white/70 hover:text-[#00FFAA] transition-colors">
             cd ~/contact
           </Link>
