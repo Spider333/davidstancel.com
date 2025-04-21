@@ -424,11 +424,6 @@ export const keywords: Keyword[] = [
           </div>
         </div>
 
-        <div className="p-4 bg-[#272727]/50 rounded-lg mt-6">
-          <p className="text-sm text-white/80">
-            My presentations focus on Bitcoin, Ethereum, DeFi innovations, and the intersection of technology and economy. I customize each talk to the specific audience, offering both high-level strategic insights and technical deep dives when appropriate.
-          </p>
-        </div>
 
 
       </div>
