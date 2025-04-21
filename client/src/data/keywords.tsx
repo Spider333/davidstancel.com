@@ -12,6 +12,9 @@ export const keywords: Keyword[] = [
     title: 'entrepreneur',
     content: (
       <div>
+        <p className="text-white/90 mb-6">
+          My first company was in NFTs, and an utter failure. The other two went quite better.
+        </p>
         <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="text-center">
             <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
@@ -20,6 +23,7 @@ export const keywords: Keyword[] = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
+            <p className="text-xs text-white/70 mt-2">Raised 4+M, 150k users, Superbrand Award</p>
           </div>
           
           <div className="text-center">
