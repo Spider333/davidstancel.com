@@ -350,12 +350,8 @@ export const keywords: Keyword[] = [
     title: 'educator',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          I'm passionate about sharing knowledge in the field of blockchain, cryptocurrency, and digital assets. I've developed courses and led seminars for both academic institutions and private organizations.
-        </p>
-        
         <div className="mt-6 mb-8">
-          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Academic Teaching</h4>
+          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Universities</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
               <div className="mb-3 flex justify-between items-start">
@@ -366,9 +362,6 @@ export const keywords: Keyword[] = [
                   </svg>
                 </a>
               </div>
-              <p className="text-sm text-white/80">
-                Teaching blockchain technology fundamentals and applications, focusing on technical aspects of cryptocurrency ecosystems.
-              </p>
             </div>
             
             <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042]">
@@ -380,9 +373,6 @@ export const keywords: Keyword[] = [
                   </svg>
                 </a>
               </div>
-              <p className="text-sm text-white/80">
-                Leading courses on cryptocurrency markets, tokenomics, and the economic implications of blockchain technology.
-              </p>
             </div>
           </div>
         </div>
@@ -395,7 +385,7 @@ export const keywords: Keyword[] = [
                 <span className="text-white font-medium">Original Courses (in Slovak)</span>
               </div>
               <p className="text-sm text-white/80 mb-4">
-                I've created two comprehensive courses in the Slovak language, teaching blockchain fundamentals, cryptocurrency concepts, and practical applications of digital assets.
+                I've created two courses in Slovak language.
               </p>
             </div>
             
@@ -403,23 +393,32 @@ export const keywords: Keyword[] = [
               <div className="mb-3">
                 <span className="text-white font-medium">Professional Seminars</span>
               </div>
-              <p className="text-sm text-white/80">
-                I've led specialized seminars on a wide variety of crypto topics for organizations including:
-              </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
-                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">Slovak National Bank</div>
-                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">Minitech MBA</div>
-                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">O2</div>
-                <div className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm">ČSOB and other private banks</div>
+                <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  Slovak National Bank
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <a href="https://minitechmba.com/" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  Minitech MBA
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <a href="https://www.o2.sk/en" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  O2
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <a href="https://www.csob.sk/en" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
+                  ČSOB
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
               </div>
-            </div>
-            
-            <div className="bg-[#272727]/30 p-5 rounded-lg relative overflow-hidden">
-              <div className="text-sm text-white/70 mb-1">blockchain_lecture.sol</div>
-              <div className="font-mono text-xs bg-[#272727] p-3 rounded overflow-x-auto">
-                <pre><code>{"// SPDX-License-Identifier: MIT\nfunction understandBlockchain() public {\n   require(attentive == true, \"Pay attention\");\n   knowledge++;\n   if(knowledge > threshold) {\n      emit Enlightened(msg.sender);\n   }\n}"}</code></pre>
-              </div>
-              <p className="mt-3 text-sm text-white/80 italic">A light-hearted approach to learning blockchain concepts</p>
             </div>
           </div>
         </div>
