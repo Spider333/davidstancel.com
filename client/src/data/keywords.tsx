@@ -12,17 +12,10 @@ export const keywords: Keyword[] = [
     title: 'entrepreneur',
     content: (
       <div>
-        <p className="text-white/90">
-          Blockchain technology is the foundation of the decentralized web. I've been involved in blockchain development since 2017, working on various DLT solutions and smart contract implementations.
-        </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
             <div className="p-5">
-              <h5 className="text-center text-white font-medium text-lg mb-3">Fumbi.network</h5>
-              <p className="text-white/80 text-sm">
-                Crypto investment platform making digital assets accessible to everyone.
-              </p>
+              <h5 className="text-center text-white font-medium text-lg mb-3">Fumbi</h5>
               <div className="mt-4 flex justify-end">
                 <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
                   visit 
@@ -36,10 +29,7 @@ export const keywords: Keyword[] = [
           
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
             <div className="p-5">
-              <h5 className="text-center text-white font-medium text-lg mb-3">Cork.tech</h5>
-              <p className="text-white/80 text-sm">
-                Blockchain infrastructure and development solutions.
-              </p>
+              <h5 className="text-center text-white font-medium text-lg mb-3">Cork</h5>
               <div className="mt-4 flex justify-end">
                 <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
                   visit 
