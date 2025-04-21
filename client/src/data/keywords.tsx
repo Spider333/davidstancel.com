@@ -492,6 +492,39 @@ export const keywords: Keyword[] = [
     )
   },
   {
+    id: 'books',
+    title: 'writer',
+    content: (
+      <div>
+        <p className="text-white/90 mb-6">
+          I dedicated few years of my life to map out the Evolution of Bitcoin and crypto in my book.
+        </p>
+        
+        <div className="grid grid-cols-2 gap-6 mt-4">
+          <div className="text-center">
+            <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Coin Story
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <p className="text-xs text-white/70 mt-2">The Evolution of Bitcoin and Crypto</p>
+          </div>
+          
+          <div className="text-center">
+            <a href="https://standard.sk/author/david-stancel" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+              Standard
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <p className="text-xs text-white/70 mt-2">Regular Contributor to Slovak Economic Newspaper</p>
+          </div>
+        </div>
+      </div>
+    )
+  },
+  {
     id: 'nfts',
     title: 'educator',
     content: (
