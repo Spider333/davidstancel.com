@@ -150,7 +150,7 @@ export const keywords: Keyword[] = [
         <div className="mb-10">
           <h4 className="text-[#00FFAA] font-medium mb-4">Interviews</h4>
           <div className="grid grid-cols-1 gap-3">
-            <a href="https://startitstories.com/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+            <a href="https://www.youtube.com/watch?time_continue=2&v=iCg-hzeYeqw&embeds_referring_euri=https%3A%2F%2Fwww.stanceldavid.sk%2F" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
               StartitUP Interview
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -168,7 +168,7 @@ export const keywords: Keyword[] = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
-            <a href="https://utxo.cz/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+            <a href="https://www.youtube.com/watch?v=oT9GZbqR7K4" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
               UTXO Conference Talk
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -186,7 +186,7 @@ export const keywords: Keyword[] = [
         <div className="mb-6">
           <h4 className="text-[#00FFAA] font-medium mb-4">Discussions</h4>
           <div className="grid grid-cols-1 gap-3">
-            <a href="https://blockwalks.com/speakers/nick-szabo/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+            <a href="https://www.youtube.com/watch?v=Yrdp18Sy1bc" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
               Blockwalks Discussion with Nick Szabo
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
