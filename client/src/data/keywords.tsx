@@ -113,20 +113,11 @@ export const keywords: Keyword[] = [
                 <p className="text-sm text-white/70 mt-2 pl-2">Insurance Company</p>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-[#272727]/30 p-4 rounded-lg">
-                  <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
-                    Eterbase
-                  </span>
-                  <p className="text-sm text-white/70 mt-2 pl-2">Crypto Exchange</p>
-                </div>
-
-                <div className="bg-[#272727]/30 p-4 rounded-lg">
-                  <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
-                    Bethereum
-                  </span>
-                  <p className="text-sm text-white/70 mt-2 pl-2">Smart Contract Betting Platform</p>
-                </div>
+              <div className="bg-[#272727]/30 p-4 rounded-lg">
+                <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
+                  Eterbase
+                </span>
+                <p className="text-sm text-white/70 mt-2 pl-2">Crypto Exchange</p>
               </div>
             </div>
           </div>
