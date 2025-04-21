@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Your Name | Crypto & Tech Enthusiast</title>
-        <meta name="description" content="Personal website with expertise in cryptocurrency, blockchain technology, and digital innovation" />
-        <meta name="keywords" content="crypto, blockchain, technology, personal website, digital innovation, web3, defi, nfts" />
+        <title>David Stancel | Crypto & Tech Enthusiast</title>
+        <meta name="description" content="Personal website of David Stancel with expertise in cryptocurrency, blockchain technology, and digital innovation" />
+        <meta name="keywords" content="David Stancel, crypto, blockchain, technology, personal website, digital innovation, web3, defi, nfts" />
       </Helmet>
       
       <div className="min-h-screen flex flex-col bg-black text-white">
@@ -22,13 +22,16 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <Hero />
             <section>
-              <h3 className="text-lg font-medium mb-6 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2 text-[#00FFAA]">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 6h.008v.008H6V6z" />
-                </svg>
-                Keywords
-              </h3>
+              <div className="mb-6">
+                <h3 className="text-lg font-medium mb-3 flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2 text-[#00FFAA]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 6h.008v.008H6V6z" />
+                  </svg>
+                  Who am I?
+                </h3>
+                <p className="text-white/80 mb-4">If you've come to this site, you probably wonder who am I, possible answers are the following.</p>
+              </div>
               <KeywordAccordion keywords={keywords} />
             </section>
           </div>
