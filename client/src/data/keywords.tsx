@@ -67,48 +67,179 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          Web3 represents the next evolution of the internet—a decentralized web where users control their data and digital assets. My focus is on building intuitive interfaces for web3 applications that bridge the gap between blockchain technology and mainstream users.
+          As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on innovation, digital transformation, and emerging technologies.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="bg-[#272727] border border-[#00FFAA]/20 rounded-lg overflow-hidden">
-            <div className="p-4">
-              <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
-                </svg>
-                dApps
-              </h4>
-              <p className="text-sm text-white/80">
-                Building decentralized applications with seamless UX/UI
-              </p>
-            </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Conferences:</h4>
+            <ul className="space-y-2 text-white/80 text-sm">
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                InvestSummit (2022)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                UTXO (2022)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Readycon (2021/2022)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                WeAreDevelopers (2021)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Aeternity Universe One Conference (2019)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                FuturePort Prague (2019/2021)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                IXPO (2019)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                IBM Perspective (2019)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Globsec (2018)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Blockwalks (2018,2019)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                FutureNow Conf (2018)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                XIXOIO Cryptobanking Conference (2018)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Cybercentral (2018, 2019)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Softecon (2018)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Night of Chances (2018)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Hackers Congress Paralelni Polis (2016,2017)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                LibertyCon (2017)
+              </li>
+            </ul>
           </div>
-          <div className="bg-[#272727] border border-[#00FFAA]/20 rounded-lg overflow-hidden">
-            <div className="p-4">
-              <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                </svg>
-                Security
-              </h4>
-              <p className="text-sm text-white/80">
-                Implementing robust security measures for blockchain apps
-              </p>
-            </div>
+          
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Universities:</h4>
+            <ul className="space-y-2 text-white/80 text-sm">
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Charles University (CZ)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Masaryk University (CZ)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Slovak University of Technology (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Comenius University (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                University of Economics (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Matej Bel University (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                University of Zilina (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Universidad Rey Juan Carlos (ES)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                St. Petersburg University (RU)
+              </li>
+            </ul>
           </div>
-          <div className="bg-[#272727] border border-[#00FFAA]/20 rounded-lg overflow-hidden">
-            <div className="p-4">
-              <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                </svg>
-                DAOs
-              </h4>
-              <p className="text-sm text-white/80">
-                Creating and participating in decentralized autonomous organizations
-              </p>
-            </div>
+          
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Institutions:</h4>
+            <ul className="space-y-2 text-white/80 text-sm">
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                European Parliament
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Slovak National Bank
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Government of the Czech Republic
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Ministry of Finance (SK)
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                Slovak Banking Association
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                IBM
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                ČSOB
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                KPMG, PwC, BDO, EY
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#00FFAA] mr-2">•</span>
+                O2 Slovakia
+              </li>
+            </ul>
           </div>
+        </div>
+        
+        <div className="mt-6 p-4 bg-[#272727]/50 rounded-lg">
+          <h4 className="text-[#00FFAA] font-medium mb-2 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            </svg>
+            Speaking Topics
+          </h4>
+          <p className="text-sm text-white/80">
+            My presentations focus on digital innovation, future technologies, and their impact on business and society. I customize each talk to the specific audience, offering both high-level strategic insights and technical deep dives when appropriate.
+          </p>
         </div>
       </div>
     )
