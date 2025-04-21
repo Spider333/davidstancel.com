@@ -41,25 +41,6 @@ export const keywords: Keyword[] = [
             </div>
           </div>
         </div>
-        
-        <div className="grid grid-cols-2 gap-4 mt-4">
-          <div className="bg-[#272727]/40 rounded-lg p-4">
-            <h4 className="text-[#00FFAA] font-medium mb-2">Experience</h4>
-            <ul className="list-disc list-inside text-sm text-white/80 space-y-1">
-              <li>Smart contract development</li>
-              <li>Consensus mechanisms</li>
-              <li>Web3 integration</li>
-            </ul>
-          </div>
-          <div className="bg-[#272727]/40 rounded-lg p-4">
-            <h4 className="text-[#00FFAA] font-medium mb-2">Projects</h4>
-            <ul className="list-disc list-inside text-sm text-white/80 space-y-1">
-              <li>DeFi protocol design</li>
-              <li>NFT marketplace</li>
-              <li>Governance systems</li>
-            </ul>
-          </div>
-        </div>
       </div>
     )
   },
