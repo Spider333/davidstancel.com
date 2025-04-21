@@ -402,45 +402,87 @@ export const keywords: Keyword[] = [
     title: 'student',
     content: (
       <div>
-        <div className="flex flex-col md:flex-row gap-6">
-          <div className="md:w-2/3">
-            <p className="text-white/90 mb-4">
-              Innovation at the intersection of technology and finance drives my work. I'm constantly exploring new frameworks, protocols, and approaches to solve complex problems in the crypto space.
-            </p>
-            <p className="text-white/80 mb-4">
-              My approach combines technical expertise with creative thinking to push the boundaries of what's possible in decentralized systems.
-            </p>
-            <h4 className="text-[#00FFAA] font-medium mt-6 mb-3">Current Areas of Research</h4>
-            <ul className="space-y-2 text-white/80">
-              <li className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#2563EB] mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+        <p className="text-white/90 mb-4">
+          As a lifelong learner, I believe in continuously expanding my knowledge and challenging myself academically. My education has given me a strong foundation in both policy and technology.
+        </p>
+        
+        <div className="mt-6 mb-8">
+          <h4 className="text-[#00FFAA] font-medium mb-6 text-xl text-center">Education</h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
+              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="60" height="60" fill="white"/>
+                  <path d="M30 10C35 10 40 15 40 30C40 45 35 50 30 50C25 50 20 45 20 30C20 15 25 10 30 10Z" fill="#27348B"/>
                 </svg>
-                Zero-knowledge proofs and privacy
-              </li>
-              <li className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#2563EB] mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </div>
+              <h5 className="text-white font-medium text-center">Masaryk University (CZ)</h5>
+              <p className="mt-2 text-sm text-white/70 text-center">Bc. in International Affairs & Economic Policy</p>
+            </div>
+            
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
+              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="60" height="60" fill="white"/>
+                  <path d="M20 20H40V40H20V20Z" fill="#D52B1E"/>
                 </svg>
-                Cross-chain interoperability
-              </li>
-              <li className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#2563EB] mr-2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </div>
+              <h5 className="text-white font-medium text-center">University of Nicosia (CY)</h5>
+              <p className="mt-2 text-sm text-white/70 text-center">MSc. in Digital Currencies</p>
+            </div>
+            
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
+              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="60" height="60" fill="white"/>
+                  <path d="M30 15L20 45H40L30 15Z" fill="#888888"/>
+                  <path d="M40 25L20 35H40V25Z" fill="#B3282D"/>
                 </svg>
-                Layer 2 scaling solutions
-              </li>
-            </ul>
+              </div>
+              <h5 className="text-white font-medium text-center">Pantheon-Assas Universite Paris (FR)</h5>
+              <p className="mt-2 text-sm text-white/70 text-center">PhD. in Law (in progress)</p>
+            </div>
           </div>
-          <div className="md:w-1/3 flex flex-col justify-center">
-            <div className="bg-[#272727]/50 rounded-lg p-5 border border-[#272727] text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 mx-auto text-[#00FFAA] mb-3">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-              </svg>
-              <div className="font-medium mb-2">Innovation Philosophy</div>
-              <p className="text-sm text-white/70">
-                "The most exciting innovations happen at the boundaries between disciplines."
+        </div>
+        
+        <div className="mt-10">
+          <h4 className="text-[#00FFAA] font-medium mb-4">Current Areas of Research</h4>
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="md:w-2/3">
+              <p className="text-white/80 mb-4">
+                My academic background drives me to approach problems with both critical thinking and creative solutions. I'm particularly interested in these emerging fields:
               </p>
+              <ul className="space-y-2 text-white/80">
+                <li className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  Zero-knowledge proofs and privacy technologies
+                </li>
+                <li className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  Cross-chain interoperability and blockchain governance
+                </li>
+                <li className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#00FFAA] mr-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  Digital currency policy and regulatory frameworks
+                </li>
+              </ul>
+            </div>
+            <div className="md:w-1/3 flex flex-col justify-center">
+              <div className="bg-[#272727]/50 rounded-lg p-5 border border-[#272727] text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 mx-auto text-[#00FFAA] mb-3">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+                <div className="font-medium mb-2">Learning Philosophy</div>
+                <p className="text-sm text-white/70">
+                  "Education is not the filling of a pail, but the lighting of a fire."
+                </p>
+              </div>
             </div>
           </div>
         </div>
