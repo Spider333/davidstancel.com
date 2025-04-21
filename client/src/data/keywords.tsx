@@ -56,7 +56,7 @@ export const keywords: Keyword[] = [
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
-                <p className="text-sm text-white/70 mt-2 pl-2">Software development company specializing in fintech solutions. I advised them on blockchain technology integration and development of crypto-related products.</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Software house</p>
               </div>
               
               <div className="bg-[#272727]/30 p-4 rounded-lg">
@@ -66,7 +66,7 @@ export const keywords: Keyword[] = [
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
-                <p className="text-sm text-white/70 mt-2 pl-2">Investment fund focused on digital assets. Provided advisory on crypto markets, investment strategies, and regulatory frameworks.</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Investment Fund</p>
               </div>
               
               <div className="bg-[#272727]/30 p-4 rounded-lg">
@@ -76,7 +76,7 @@ export const keywords: Keyword[] = [
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
-                <p className="text-sm text-white/70 mt-2 pl-2">Big 4 accounting and audit company. Consulted on blockchain and cryptocurrency implications for audit practices and financial reporting standards.</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Big 4 Accounting & Audit Company</p>
               </div>
               
               <div className="bg-[#272727]/30 p-4 rounded-lg">
@@ -86,7 +86,7 @@ export const keywords: Keyword[] = [
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
-                <p className="text-sm text-white/70 mt-2 pl-2">Central bank of Slovakia. Advised on central bank digital currency (CBDC) research and blockchain technology implications for monetary policy.</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Central Bank</p>
               </div>
             </div>
           </div>
@@ -100,21 +100,21 @@ export const keywords: Keyword[] = [
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
-                <p className="text-sm text-white/70 mt-2 pl-2">Insurance company exploring blockchain applications. Helped develop tokenization strategies for insurance products and smart contract implementation frameworks.</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Insurance Company</p>
               </div>
               
               <div className="bg-[#272727]/30 p-4 rounded-lg">
                 <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
                   Eterbase
                 </span>
-                <p className="text-sm text-white/70 mt-2 pl-2">Cryptocurrency exchange based in Europe. Provided advisory on exchange operations, compliance, and security features for their trading platform. (Inactive)</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Crypto Exchange</p>
               </div>
               
               <div className="bg-[#272727]/30 p-4 rounded-lg">
                 <span className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm text-white/50">
                   Bethereum
                 </span>
-                <p className="text-sm text-white/70 mt-2 pl-2">Blockchain-based betting platform. Consulted on smart contract development, tokenomics, and regulatory considerations for their decentralized betting solution. (Inactive)</p>
+                <p className="text-sm text-white/70 mt-2 pl-2">Smart Contract Betting Platform</p>
               </div>
               
               <div className="mt-6">
