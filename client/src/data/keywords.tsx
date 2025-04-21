@@ -9,7 +9,7 @@ export interface Keyword {
 export const keywords: Keyword[] = [
   {
     id: 'blockchain',
-    title: 'blockchain',
+    title: 'entrepreneur',
     content: (
       <div>
         <p className="text-white/90">
@@ -38,7 +38,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'defi',
-    title: 'defi',
+    title: 'advisor',
     content: (
       <div>
         <p className="text-white/90 mb-4">
@@ -63,7 +63,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'web3',
-    title: 'web3',
+    title: 'speaker',
     content: (
       <div>
         <p className="text-white/90 mb-6">
@@ -115,7 +115,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'nfts',
-    title: 'nfts',
+    title: 'educator',
     content: (
       <div>
         <p className="text-white/90 mb-4">
@@ -165,7 +165,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'innovation',
-    title: 'innovation',
+    title: 'student',
     content: (
       <div>
         <div className="flex flex-col md:flex-row gap-6">
