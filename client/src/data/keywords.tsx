@@ -15,6 +15,43 @@ export const keywords: Keyword[] = [
         <p className="text-white/90">
           Blockchain technology is the foundation of the decentralized web. I've been involved in blockchain development since 2017, working on various DLT solutions and smart contract implementations.
         </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
+            <div className="p-5">
+              <h5 className="text-center text-white font-medium text-lg mb-3">Fumbi.network</h5>
+              <p className="text-white/80 text-sm">
+                Crypto investment platform making digital assets accessible to everyone.
+              </p>
+              <div className="mt-4 flex justify-end">
+                <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                  visit 
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
+            <div className="p-5">
+              <h5 className="text-center text-white font-medium text-lg mb-3">Cork.tech</h5>
+              <p className="text-white/80 text-sm">
+                Blockchain infrastructure and development solutions.
+              </p>
+              <div className="mt-4 flex justify-end">
+                <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] text-sm flex items-center hover:underline">
+                  visit 
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="bg-[#272727]/40 rounded-lg p-4">
             <h4 className="text-[#00FFAA] font-medium mb-2">Experience</h4>
@@ -41,9 +78,7 @@ export const keywords: Keyword[] = [
     title: 'advisor',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          I provide strategic advisory and consulting services to companies navigating the blockchain and digital transformation landscape. My expertise spans from technical implementation to business strategy and regulatory compliance.
-        </p>
+
         
         <h4 className="text-[#00FFAA] font-medium mb-6 text-center">Companies I've Advised</h4>
         
@@ -396,7 +431,7 @@ export const keywords: Keyword[] = [
         </div>
         
         <div className="mt-8">
-          <h4 className="text-[#00FFAA] font-medium mb-5">Courses and Seminars</h4>
+          <h4 className="text-[#00FFAA] font-medium mb-5">Courses</h4>
           <div className="grid grid-cols-1 gap-6">
             <div className="p-4 bg-[#272727]/30 rounded-lg">
               <div className="mb-3">
