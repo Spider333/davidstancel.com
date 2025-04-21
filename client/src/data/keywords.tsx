@@ -409,38 +409,49 @@ export const keywords: Keyword[] = [
         <div className="mt-6 mb-8">
           <h4 className="text-[#00FFAA] font-medium mb-6 text-xl text-center">Education</h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
-              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="60" height="60" fill="white"/>
-                  <path d="M30 10C35 10 40 15 40 30C40 45 35 50 30 50C25 50 20 45 20 30C20 15 25 10 30 10Z" fill="#27348B"/>
-                </svg>
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">Masaryk University (CZ)</h5>
+                <a href="https://www.muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
               </div>
-              <h5 className="text-white font-medium text-center">Masaryk University (CZ)</h5>
-              <p className="mt-2 text-sm text-white/70 text-center">Bc. in International Affairs & Economic Policy</p>
+              <div className="bg-[#2a3042]/50 p-3 rounded-md">
+                <span className="text-white/80 text-sm font-medium">Degree:</span>
+                <p className="mt-1 text-sm text-white/70">Bc. in International Affairs & Economic Policy</p>
+              </div>
             </div>
             
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
-              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="60" height="60" fill="white"/>
-                  <path d="M20 20H40V40H20V20Z" fill="#D52B1E"/>
-                </svg>
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">University of Nicosia (CY)</h5>
+                <a href="https://www.unic.ac.cy/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
               </div>
-              <h5 className="text-white font-medium text-center">University of Nicosia (CY)</h5>
-              <p className="mt-2 text-sm text-white/70 text-center">MSc. in Digital Currencies</p>
+              <div className="bg-[#2a3042]/50 p-3 rounded-md">
+                <span className="text-white/80 text-sm font-medium">Degree:</span>
+                <p className="mt-1 text-sm text-white/70">MSc. in Digital Currencies</p>
+              </div>
             </div>
             
-            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col items-center">
-              <div className="bg-white p-2 rounded w-20 h-20 flex items-center justify-center mb-4">
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="60" height="60" fill="white"/>
-                  <path d="M30 15L20 45H40L30 15Z" fill="#888888"/>
-                  <path d="M40 25L20 35H40V25Z" fill="#B3282D"/>
-                </svg>
+            <div className="p-4 bg-[#1a1f2e] rounded-lg border border-[#2a3042] flex flex-col">
+              <div className="mb-3 flex justify-between items-start">
+                <h5 className="text-white font-medium">Pantheon-Assas Paris II (FR)</h5>
+                <a href="https://www.u-paris2.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
               </div>
-              <h5 className="text-white font-medium text-center">Pantheon-Assas Universite Paris (FR)</h5>
-              <p className="mt-2 text-sm text-white/70 text-center">PhD. in Law (in progress)</p>
+              <div className="bg-[#2a3042]/50 p-3 rounded-md">
+                <span className="text-white/80 text-sm font-medium">Degree:</span>
+                <p className="mt-1 text-sm text-white/70">PhD. in Law (in progress)</p>
+              </div>
             </div>
           </div>
         </div>
