@@ -701,42 +701,26 @@ export const keywords: Keyword[] = [
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-[#272727]/30 rounded-lg p-6">
-            <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-              </svg>
-              Get in Touch
-            </h4>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <span className="text-sm text-white/80 font-mono">Email:</span>
-                <a href="mailto:youremail@example.com" className="ml-3 text-[#00FFAA] hover:underline">youremail@example.com</a>
-              </div>              <div className="flex items-center">
-                <span className="text-sm text-white/80 font-mono">Twitter:</span>
-                <a href="https://twitter.com/yourusername" className="ml-3 text-[#00FFAA] hover:underline">@yourusername</a>
-              </div>
-              <div className="flex items-center">
-                <span className="text-sm text-white/80 font-mono">GitHub:</span>
-                <a href="https://github.com/yourusername" className="ml-3 text-[#00FFAA] hover:underline">github.com/yourusername</a>
-              </div>
+        <div className="bg-[#272727]/30 rounded-lg p-6 max-w-xl mx-auto">
+          <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            Get in Touch
+          </h4>
+          <div className="space-y-4">
+            <div className="flex items-center">
+              <span className="text-sm text-white/80 font-mono">Email:</span>
+              <a href="mailto:youremail@example.com" className="ml-3 text-[#00FFAA] hover:underline">youremail@example.com</a>
+            </div>            
+            <div className="flex items-center">
+              <span className="text-sm text-white/80 font-mono">Twitter:</span>
+              <a href="https://x.com/stancel_david" className="ml-3 text-[#00FFAA] hover:underline">@stancel_david</a>
             </div>
-          </div>
-
-          <div className="bg-[#272727]/30 rounded-lg p-6">
-            <h4 className="text-[#00FFAA] font-medium mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
-              </svg>
-              Public Key
-            </h4>
-            <div className="bg-[#272727] p-3 rounded-lg font-mono text-xs overflow-x-auto">
-              <code className="text-white/70">
-                0x71C7656EC7ab88b098defB751B7401B5f6d8976F
-              </code>
+            <div className="flex items-center">
+              <span className="text-sm text-white/80 font-mono">LinkedIn:</span>
+              <a href="https://www.linkedin.com/in/davidstancel/" className="ml-3 text-[#00FFAA] hover:underline">linkedin.com/in/davidstancel</a>
             </div>
-            <p className="text-sm text-white/60 mt-3">Ethereum (ERC-20) address for tokens or NFTs</p>
           </div>
         </div>
 
