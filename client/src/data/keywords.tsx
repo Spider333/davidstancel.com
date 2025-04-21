@@ -714,12 +714,7 @@ export const keywords: Keyword[] = [
           </div>
         </div>
 
-        <div className="mt-8 p-5 bg-[#272727]/40 rounded-lg border border-[#272727] text-center">
-          <p className="text-white/80">
-            Whether you have a question about a specific blockchain technology or just want to say hello, 
-            I'll try my best to get back to you!
-          </p>
-        </div>
+
       </div>
     )
   }
