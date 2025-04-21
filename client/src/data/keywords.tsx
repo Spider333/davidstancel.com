@@ -570,7 +570,7 @@ export const keywords: Keyword[] = [
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="text-white font-medium">Masaryk University (CZ)</h4>
+              <h4 className="text-white font-medium">Masaryk University (Czech Republic)</h4>
               <p className="text-sm text-white/70">Bc. in International Affairs & Economic Policy</p>
             </div>
             <a href="https://www.muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
@@ -582,7 +582,7 @@ export const keywords: Keyword[] = [
 
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="text-white font-medium">University of Nicosia (CY)</h4>
+              <h4 className="text-white font-medium">University of Nicosia (Cyprus)</h4>
               <p className="text-sm text-white/70">MSc. in Digital Currencies</p>
             </div>
             <a href="https://www.unic.ac.cy/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
@@ -594,8 +594,8 @@ export const keywords: Keyword[] = [
 
           <div className="flex items-center justify-between">
             <div>
-              <h4 className="text-white font-medium">Sorbonne Law School (FR)</h4>
-              <p className="text-sm text-white/70">PhD. in Law (in progress)</p>
+              <h4 className="text-white font-medium">Sorbonne Law School (France)</h4>
+              <p className="text-sm text-white/70">PhD. in International Law (in progress)</p>
             </div>
             <a href="https://www.u-paris2.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
@@ -613,7 +613,7 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          I cofounded multiple educational NGOs such as Students for Liberty (CZ), Blockchain Slovakia, and Paralelna Polis that provided education in the area of Crypto, Economics, & Technology.
+          I cofounded multiple educational NGOs such as Students for Liberty (Czech Republic), Blockchain Slovakia, and Paralelna Polis that provided education in the area of Crypto, Economics, & Technology.
         </p>
         <div className="grid grid-cols-3 gap-4 mt-4">
           <div className="text-center">
