@@ -402,7 +402,7 @@ export const keywords: Keyword[] = [
             
             <div className="p-4 bg-[#272727]/30 rounded-lg">
               <div className="mb-3">
-                <span className="text-white font-medium">Professional Seminars</span>
+                <span className="text-[#00FFAA] font-medium">Professional Seminars</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
                 <a href="https://nbs.sk/en/" target="_blank" rel="noopener noreferrer" className="bg-[#272727]/60 px-3 py-2 rounded-md text-sm flex items-center justify-between">
@@ -441,9 +441,6 @@ export const keywords: Keyword[] = [
     title: 'student',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          As a lifelong learner, I believe in continuously expanding my knowledge and challenging myself academically. My education has given me a strong foundation in both policy and technology.
-        </p>
         
         <div className="mt-4">
           <h4 className="text-[#00FFAA] font-medium mb-6 text-xl text-center">Education</h4>
@@ -499,12 +496,9 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'member',
-    title: 'member of',
+    title: 'member',
     content: (
       <div>
-        <p className="text-white/90 mb-6">
-          I'm actively involved with several non-governmental organizations that align with my values of education, technology, and positive social change. These collaborations allow me to contribute to communities and initiatives I deeply care about.
-        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-[#1a1f2e] rounded-lg overflow-hidden border border-[#2a3042]">
