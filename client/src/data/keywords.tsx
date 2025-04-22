@@ -685,11 +685,12 @@ export const keywords: Keyword[] = [
           <div className="flex items-center justify-between">
             <div>
               <h4 className="text-white font-medium">E-Residency</h4>
-              <p className="text-sm text-white/70">Estonian and Palau E-residency programs</p>
+              <p className="text-sm text-white/70">Estonian, Palau, and Prospera residency programs</p>
             </div>
             <div>
               <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">Palau</a>
               <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] ml-2">Estonia</a>
+              <a href="https://www.prospera.co/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] ml-2">Prospera</a>
             </div>
           </div>
         </div>
