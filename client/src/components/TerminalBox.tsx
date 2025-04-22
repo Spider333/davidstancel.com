@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 
 export default function TerminalBox() {
@@ -10,37 +9,8 @@ export default function TerminalBox() {
         <div className="w-3 h-3 rounded-full bg-[#2563EB] mr-2"></div>
         <div className="flex-1 pl-2 text-white/60">Terminal</div>
       </div>
-      
-      <div className="space-y-4">
-        <div className="terminal-line">
-          <span className="text-[#00FFAA]">$</span>
-          <span className="text-white/80 ml-2">cat welcome.txt</span>
-        </div>
-        
-        <div className="pl-4 space-y-1">
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="text-white/90 leading-relaxed"
-          >
-            Welcome to my personal space in the digital universe.
-          </motion.div>
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-            className="text-white/90 leading-relaxed"
-          >
-            Explore the keywords below to learn more about me and my work.
-          </motion.div>
-        </div>
 
-        <div className="terminal-line">
-          <span className="text-[#00FFAA]">$</span>
-          <span className="text-white/80 ml-2">cat info.txt</span>
-        </div>
-        
+      <div className="space-y-4">
         <div className="pl-4 space-y-1">
           <motion.div 
             initial={{ opacity: 0 }}
@@ -77,7 +47,6 @@ export default function TerminalBox() {
         </div>
 
         <div className="terminal-line">
-          <span className="text-[#00FFAA]">$</span>
           <span className="text-white/80 ml-2 animate-pulse">_</span>
         </div>
       </div>
