@@ -11,7 +11,7 @@ export default function TerminalBox() {
       </div>
 
       <div className="space-y-5 flex-1">
-        <div className="pl-4 space-y-3">
+        <div className="space-y-3">
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -30,7 +30,7 @@ export default function TerminalBox() {
             <span className="text-[#00FFAA]/80">Citizen:</span> Slovak 
           </motion.div>
           
-          <div className="grid grid-cols-1 gap-2 ml-4">
+          <div className="grid grid-cols-1 gap-2">
             <motion.div 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -98,7 +98,7 @@ export default function TerminalBox() {
         </div>
 
         <div className="terminal-line mt-auto">
-          <span className="text-white/80 ml-2 animate-pulse">_</span>
+          <span className="text-white/80 animate-pulse">_</span>
         </div>
       </div>
     </div>
