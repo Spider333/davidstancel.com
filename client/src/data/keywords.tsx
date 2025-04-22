@@ -12,28 +12,28 @@ export const keywords: Keyword[] = [
     title: 'my story',
     content: (
       <div className="space-y-6">
-        <p className="text-white/90">
-          I started to research Bitcoin and cryptocurrencies in 2012 and I organized my first Bitcoin event in early 2013 at my Alma mater at <a href="https://muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Masaryk University</a> in Czechia. Shortly after that I started to write my bachelor thesis which was dedicated to use of BTC and ETH, and I have been falling down the rabbit hole ever since while dedicating my life to studying, teaching, and building the cryptocurrency space.
+        <p className="text-white/90 leading-relaxed">
+          I started to research Bitcoin and Cryptocurrencies in 2012 and I organized my first Bitcoin event in early 2013 at my Alma mater at <a href="https://muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Masaryk University</a> in Czechia. Shortly after that I started to write my bachelor thesis which was dedicated to use of BTC and ETH, and I have been falling down the rabbit hole ever since while dedicating my life to studying, teaching, and building the cryptocurrency space.
         </p>
         
-        <p className="text-white/90">
-          In the last decade I have organized and talked on 100+ meetups, lectures & conferences, while continuing my research during my <a href="https://www.unic.ac.cy/blockchain/msc-digital-currency/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Master of Science in Digital Currencies</a> at the University of Nicosia in Cyprus, and lately also my PhD at <a href="https://www.pantheonsorbonne.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Sorbonne Law School</a> in Paris. In 2019 I started to teach the first full semester long cryptocurrency university course, which continues to be taught at the <a href="https://www.stuba.sk/en.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Slovak University of Technology</a>.
+        <p className="text-white/90 leading-relaxed">
+          In the last decade I have organized and talked on 100+ meetups, lectures & conferences, while continuing my research during my <a href="https://www.unic.ac.cy/blockchain/msc-digital-currency/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Master of Science in Digital Currencies</a> at the University of Nicosia in Cyprus, and lately also my PhD at <a href="https://www.pantheonsorbonne.fr/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Sorbonne Law School</a> in Paris. In 2019 I started to teach the first full semester long cryptocurrency university course, which continues to be taught at the <a href="https://www.stuba.sk/en.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Slovak University of Technology</a>.
         </p>
         
-        <p className="text-white/90">
-          I cofounded multiple educational NGOs such as <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Students for Liberty</a> (CZ), <a href="https://blockchainslovakia.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Blockchain Slovakia</a>, and <a href="https://paralelnapolis.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Paralelna Polis</a> that provided education in the area of Crypto, Economics, & Technology.
+        <p className="text-white/90 leading-relaxed">
+          I cofounded multiple educational NGOs such as <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Students for Liberty</a> (CZ), <a href="https://blockchainslovakia.sk/en/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Blockchain Slovakia</a>, and <a href="https://paralelnapolis.sk/en/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Paralelna Polis</a> that provided education in the area of Crypto, Economics, & Technology.
         </p>
         
-        <p className="text-white/90">
-          While advising to many startups, enterprises, funds and even government institutions in the area of cryptocurrencies, I have cofounded some companies myself. The last few years I served as CTO and Board Member at Cryptocurrency brokerage company <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Fumbi</a>.
+        <p className="text-white/90 leading-relaxed">
+          While advising to many startups, enterprises, funds and even government institutions in the area of Cryptocurrencies, I have cofounded some companies myself. The last few years I served as CTO and Board Member at Cryptocurrency brokerage company <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Fumbi</a>.
         </p>
         
-        <p className="text-white/90">
-          My many years long research was compressed into my book focused on the history and evolution of Bitcoin and Cryptocurrencies — <a href="https://www.martinus.sk/?uItem=746" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Coinstory</a>, which got published in 2022.
+        <p className="text-white/90 leading-relaxed">
+          My many years long research was compressed into my book focused on the history and evolution of Bitcoin and Cryptocurrencies — <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Coinstory</a>, which got published in 2022.
         </p>
         
-        <p className="text-white/90">
-          Lately my focus is on building <a href="https://www.cork.tech/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Cork Protocol</a> that got accelerated by <a href="https://a16zcrypto.com/posts/article/crypto-startup-accelerator-csx-fall-2023-new-york-city/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">a16z crypto CSX</a>.
+        <p className="text-white/90 leading-relaxed">
+          Lately my focus is on building <a href="https://www.cork.tech/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Cork Protocol</a> that got accelerated by <a href="https://a16zcrypto.com/posts/article/crypto-startup-accelerator-csx-fall-2023-new-york-city/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">a16z crypto CSX</a>.
         </p>
       </div>
     )
@@ -48,7 +48,7 @@ export const keywords: Keyword[] = [
         </p>
         <div className="grid grid-cols-3 gap-4 mt-4">
           <div className="text-center">
-            <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+            <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2 font-medium">
               Fumbi
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -58,7 +58,7 @@ export const keywords: Keyword[] = [
           </div>
 
           <div className="text-center">
-            <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+            <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2 font-medium">
               Cork
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -68,7 +68,7 @@ export const keywords: Keyword[] = [
           </div>
 
           <div className="text-center">
-            <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
+            <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2 font-medium">
               Amagi Labs
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 ml-1 inline-block text-[#00FFAA]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />

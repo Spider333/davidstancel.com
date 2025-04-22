@@ -7,10 +7,14 @@ export function Analytics() {
   useEffect(() => {
     // Track page view
     const trackPageView = () => {
-      if (window.gtag) {
-        window.gtag('config', 'GA_MEASUREMENT_ID', {
-          page_path: location
-        });
+      try {
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('config', 'GA_MEASUREMENT_ID', {
+            page_path: location
+          });
+        }
+      } catch (error) {
+        console.log('Analytics error:', error);
       }
     };
 
