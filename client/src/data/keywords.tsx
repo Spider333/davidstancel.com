@@ -466,7 +466,7 @@ export const keywords: Keyword[] = [
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          I dedicated few years of my life to map out the Evolution of Bitcoin and crypto in my book - <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Coinstory</a>.
+          I dedicated few years of my life to map out the Evolution of Bitcoin and crypto in my book - <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Coinstory</a>. I now occasionally write on my <a href="https://davidstancel.substack.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Substack</a>. You can also check my <a href="https://www.stanceldavid.sk/blog/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">old blog</a>.
         </p>
 
         <div className="grid grid-cols-2 gap-6 mt-4">
