@@ -172,11 +172,11 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'web3',
-    title: 'speaker and moderator',
+    title: 'speaker and host',
     content: (
       <div>
         <p className="text-white/90 mb-6">
-          As an experienced speaker and event moderator, I've delivered talks and moderated panels at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
+          As an experienced speaker and event host, I've delivered talks and hosted panels at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
