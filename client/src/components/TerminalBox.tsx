@@ -74,7 +74,7 @@ export default function TerminalBox() {
             transition={{ delay: 1 }}
             className="text-white/90 leading-relaxed pt-1"
           >
-            <span className="text-[#00FFAA]/80">Read:</span> <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">My book on evolution of Bitcoin and Cryptocurrencies</a>
+            <span className="text-[#00FFAA]/80">My Book:</span> <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Coinstory - The Evolution of Bitcoin and Cryptocurrencies</a>
           </motion.div>
           
           <motion.div 
@@ -84,7 +84,9 @@ export default function TerminalBox() {
             className="text-white/90 leading-relaxed pt-1"
           >
             <span className="text-[#00FFAA]/80">Projects:</span> 
-            <span className="ml-2 text-white/70">Cork, Fumbi, Amagi Labs</span>
+            <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="ml-2 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Cork</a>, 
+            <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="ml-1 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Fumbi</a>, 
+            <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="ml-1 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Amagi Labs</a>
           </motion.div>
           
           <motion.div 
