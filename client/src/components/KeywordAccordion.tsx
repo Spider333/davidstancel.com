@@ -2,6 +2,16 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import KeywordSection from './KeywordSection';
 import { Keyword } from '@/data/keywords.tsx';
+import { 
+  Briefcase, 
+  MessageCircle, 
+  GraduationCap, 
+  BookOpen, 
+  Users, 
+  Pen, 
+  Contact,
+  CircleUser
+} from 'lucide-react';
 
 interface KeywordAccordionProps {
   keywords: Keyword[];
@@ -12,6 +22,29 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
 
   const toggleExpand = (id: string) => {
     setExpandedId(expandedId === id ? null : id);
+  };
+  
+  const getIconForKeyword = (id: string) => {
+    switch (id) {
+      case 'entrepreneur':
+        return <Briefcase className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'advisor':
+        return <MessageCircle className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'speaker':
+        return <MessageCircle className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'educator':
+        return <GraduationCap className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'student':
+        return <BookOpen className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'member':
+        return <Users className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'writer':
+        return <Pen className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'contact':
+        return <CircleUser className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      default:
+        return null;
+    }
   };
 
   return (
@@ -25,7 +58,10 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
             aria-controls={`content-${keyword.id}`}
             id={keyword.id}
           >
-            <span className="font-medium">{keyword.title}</span>
+            <span className="font-medium flex items-center">
+              {getIconForKeyword(keyword.id)}
+              {keyword.title}
+            </span>
             <motion.svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
