@@ -4,7 +4,8 @@ import KeywordSection from './KeywordSection';
 import { Keyword } from '@/data/keywords.tsx';
 import { 
   Briefcase, 
-  MessageCircle, 
+  Lightbulb, 
+  Mic, 
   GraduationCap, 
   BookOpen, 
   Users, 
@@ -32,9 +33,9 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
       case 'entrepreneur':
         return <Briefcase className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'advisor':
-        return <MessageCircle className="w-5 h-5 text-[#00FFAA] mr-2" />;
+        return <Lightbulb className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'speaker':
-        return <MessageCircle className="w-5 h-5 text-[#00FFAA] mr-2" />;
+        return <Mic className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'educator':
         return <GraduationCap className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'student':
