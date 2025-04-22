@@ -11,6 +11,11 @@ export default function TerminalBox() {
         <div>$ cat welcome.txt</div>
         <div className="pl-4 mt-2">Welcome to my personal space in the digital universe.</div>
         <div className="pl-4">Explore the keywords below to learn more about me and my work.</div>
+        <div className="mt-2">$ cat info.txt</div>
+        <div className="pl-4 mt-2">Crypto OG, Tech Lover, Extropist, Investor</div>
+        <div className="pl-4">Citizenship: Slovak</div>
+        <div className="pl-4">Resident of: Paraguay</div>
+        <div className="pl-4">E-resident: Estonia, Palau, Prospera (Honduras)</div>
         <div className="mt-2">$ _</div>
       </div>
     </div>
