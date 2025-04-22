@@ -34,6 +34,14 @@ export default function TerminalBox() {
             transition={{ delay: 1 }}
             className="text-white/90 leading-relaxed"
           >
+            <span className="text-[#00FFAA]/80">Read:</span> <a href="https://www.martinus.sk/?uItem=746" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">My book on evolution of Bitcoin and cryptocurrencies</a>
+          </motion.div>
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+            className="text-white/90 leading-relaxed"
+          >
             <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">LinkedIn</a>, <a href="https://davidstancel.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Substack</a>
           </motion.div>
         </div>
