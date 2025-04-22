@@ -11,3 +11,10 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 }
+
+.terminal-line {
+  display: flex;
+  align-items: center;
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: -0.025em;
+}
