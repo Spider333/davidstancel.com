@@ -25,7 +25,10 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
   };
   
   const getIconForKeyword = (id: string) => {
-    switch (id) {
+    // Match by title not id
+    const keywordTitle = keywords.find(k => k.id === id)?.title || '';
+    
+    switch (keywordTitle) {
       case 'entrepreneur':
         return <Briefcase className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'advisor':
