@@ -34,7 +34,7 @@ export default function TerminalBox() {
             transition={{ delay: 1 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">LinkedIn</a>
+            <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">LinkedIn</a>, <a href="https://davidstancel.substack.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Substack</a>
           </motion.div>
         </div>
 
