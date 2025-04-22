@@ -1,4 +1,5 @@
 import TerminalBox from './TerminalBox';
+import actionFigureImage from "@assets/DS af 2.png";
 
 export default function Hero() {
   return (
@@ -15,7 +16,18 @@ export default function Hero() {
         <span className="inline-block ml-1 opacity-60">// Not financial advice</span>
       </p>
       
-      <TerminalBox />
+      <div className="flex flex-col sm:flex-row gap-6">
+        <div className="flex-1">
+          <TerminalBox />
+        </div>
+        <div className="w-full sm:w-auto flex justify-center">
+          <img 
+            src={actionFigureImage} 
+            alt="David Stancel Action Figure" 
+            className="rounded-lg max-h-[400px] object-contain shadow-[0_0_10px_rgba(0,255,170,0.2)]" 
+          />
+        </div>
+      </div>
     </section>
   );
 }
