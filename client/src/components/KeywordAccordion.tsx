@@ -31,7 +31,7 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
     
     switch (keywordTitle) {
       case 'entrepreneur':
-        return <Briefcase className="w-5 h-5 text-[#00FFAA] mr-2" />;
+        return <Briefcase className="w-5 h-5 text-[#00FFAA] drop-shadow-[0_0_3px_rgba(0,255,170,0.5)] mr-2" />;
       case 'advisor':
         return <Lightbulb className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'speaker and moderator':
@@ -43,7 +43,7 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
       case 'member':
         return <Users className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'writer':
-        return <Pen className="w-5 h-5 text-[#00FFAA] mr-2" />;
+        return <Pen className="w-5 h-5 text-[#00FFAA] drop-shadow-[0_0_3px_rgba(0,255,170,0.5)] mr-2" />;
       case 'contact':
         return <CircleUser className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'NGO founder':
@@ -59,7 +59,11 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
       {keywords.map((keyword) => (
         <div key={keyword.id} className="mb-4">
           <button
-            className="w-full text-left p-4 border border-[#272727] hover:border-[#00FFAA]/50 rounded-lg flex justify-between items-center transition-all duration-300 hover:bg-[#272727]/30"
+            className={`w-full text-left p-4 border ${
+              keyword.title === 'entrepreneur' || keyword.title === 'writer' 
+                ? 'border-[#00FFAA]/20 bg-gradient-to-r from-[#00FFAA]/5 to-transparent' 
+                : 'border-[#272727]'
+            } hover:border-[#00FFAA]/50 rounded-lg flex justify-between items-center transition-all duration-300 hover:bg-[#272727]/30`}
             onClick={() => toggleExpand(keyword.id)}
             aria-expanded={expandedId === keyword.id}
             aria-controls={`content-${keyword.id}`}
@@ -67,7 +71,7 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
           >
             <span className="font-medium flex items-center">
               {getIconForKeyword(keyword.id)}
-              {keyword.title}
+              <span className={keyword.title === 'entrepreneur' || keyword.title === 'writer' ? 'font-semibold' : ''}>{keyword.title}</span>
             </span>
             <motion.svg
               xmlns="http://www.w3.org/2000/svg"
