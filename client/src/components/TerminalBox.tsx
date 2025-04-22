@@ -26,23 +26,7 @@ export default function TerminalBox() {
             transition={{ delay: 0.8 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Citizenship:</span> Slovak
-          </motion.div>
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1 }}
-            className="text-white/90 leading-relaxed"
-          >
-            <span className="text-[#00FFAA]/80">Resident of:</span> Paraguay
-          </motion.div>
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-            className="text-white/90 leading-relaxed"
-          >
-            <span className="text-[#00FFAA]/80">E-resident:</span> Estonia, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, Prospera (Honduras)
+            <span className="text-[#00FFAA]/80">Citizenship:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident of:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> Estonia, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, Prospera (Honduras)
           </motion.div>
         </div>
 
