@@ -26,7 +26,7 @@ export default function TerminalBox() {
             transition={{ delay: 0.8 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Citizen:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Estonia</a>, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, <a href="https://www.prospera.co/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Prospera</a>
+            <span className="text-[#00FFAA]/80">Citizen:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Estonia</a>, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Palau</a>, <a href="https://www.prospera.co/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Prospera</a>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ export default function TerminalBox() {
             transition={{ delay: 1 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">LinkedIn</a>, <a href="https://davidstancel.substack.com/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Substack</a>
+            <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">LinkedIn</a>, <a href="https://davidstancel.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Substack</a>
           </motion.div>
         </div>
 
