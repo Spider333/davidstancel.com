@@ -148,99 +148,89 @@ export const keywords: Keyword[] = [
           As an experienced speaker, I've delivered talks and presentations at major conferences, universities and institutions across Europe. My topics focus on Bitcoin, Ethereum, DeFi, and the intersection of technology and economy.
         </p>
 
-        <div className="mb-10">
-          <h4 className="text-[#00FFAA] font-medium mb-4">Interviews</h4>
-          <div className="grid grid-cols-1 gap-3">
-            <a href="https://www.youtube.com/watch?time_continue=2&v=iCg-hzeYeqw&embeds_referring_euri=https%3A%2F%2Fwww.stanceldavid.sk%2F" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              StartitUP Interview
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.youtube.com/watch?v=3_asuwivJR0" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              Documentary Movie Libertas
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.forbes.sk/ako-kryptomeny-menia-nas-svet-na-otazku-odpoveda-kryptomenovy-odbornik-david-stancel/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              FORBES
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.ta3.com/relacia/24972/za-energeticku-krizu-si-moze-zapad-sam-digitalne-peniaze-a-kryptomeny-bitcoin-zazil-najhorsi-mesiac-v-historii" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              TA3 TV Interview 1
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.ta3.com/relacia/23784/zaujem-o-kryptomeny-stupa-rusko-chce-za-ropu-a-plyn-bitcoiny" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              TA3 Interview 2
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://e.dennikn.sk/2340777/neverim-ze-bitcoin-je-pyramida-kto-to-hovori-nevie-ako-funguje-mysli-si-david-stancel/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              Dennik N Interview
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Interviews</h4>
+            <div className="space-y-3">
+              <a href="https://www.youtube.com/watch?time_continue=2&v=iCg-hzeYeqw&embeds_referring_euri=https%3A%2F%2Fwww.stanceldavid.sk%2F" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                StartitUP Interview
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/watch?v=3_asuwivJR0" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                Documentary Movie Libertas
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://www.forbes.sk/ako-kryptomeny-menia-nas-svet-na-otazku-odpoveda-kryptomenovy-odbornik-david-stancel/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                FORBES
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://e.dennikn.sk/2340777/neverim-ze-bitcoin-je-pyramida-kto-to-hovori-nevie-ako-funguje-mysli-si-david-stancel/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                Dennik N Interview
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div className="mb-10">
-          <h4 className="text-[#00FFAA] font-medium mb-4">Talks</h4>
-          <div className="grid grid-cols-1 gap-3">
-            <a href="https://www.futureport.sk/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              FuturePort - Evolution of Cryptocurrencies
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.youtube.com/watch?v=oT9GZbqR7K4" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              UTXO Conference Talk
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://blockwalks.com/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              Blockwalks Conference Talk
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://vimeo.com/showcase/futureportyouth2021" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              Future of Money
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://podcasty.hn.cz/c1-67088450-digicash-bitgold-nebo-hashcash-vite-co-bylo-pred-bitcoinem-a-proc-je-tak-unikatni" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              HN Podcast - Bitcoin History
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Talks</h4>
+            <div className="space-y-3">
+              <a href="https://www.futureport.sk/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                FuturePort - Evolution of Cryptocurrencies
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/watch?v=oT9GZbqR7K4" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                UTXO Conference Talk
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://blockwalks.com/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                Blockwalks Conference Talk
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://vimeo.com/showcase/futureportyouth2021" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                Future of Money
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div className="mb-6">
-          <h4 className="text-[#00FFAA] font-medium mb-4">Discussions</h4>
-          <div className="grid grid-cols-1 gap-3">
-            <a href="https://www.youtube.com/watch?v=Yrdp18Sy1bc" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              Blockwalks Discussion with Nick Szabo
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
-            <a href="https://www.youtube.com/watch?v=6kQ0x-wFcs4&t=11s" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
-              UTXO Panel Discussion
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+          <div className="bg-[#272727]/40 p-5 rounded-lg">
+            <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Discussions</h4>
+            <div className="space-y-3">
+              <a href="https://www.youtube.com/watch?v=Yrdp18Sy1bc" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                Blockwalks Discussion with Nick Szabo
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/watch?v=6kQ0x-wFcs4&t=11s" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                UTXO Panel Discussion
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://podcasty.hn.cz/c1-67088450-digicash-bitgold-nebo-hashcash-vite-co-bylo-pred-bitcoinem-a-proc-je-tak-unikatni" target="_blank" rel="noopener noreferrer" className="bg-[#1a1a1a] px-4 py-3 rounded-md text-sm flex items-center justify-between">
+                HN Podcast - Bitcoin History
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 ml-1 text-[#00FFAA]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
 
