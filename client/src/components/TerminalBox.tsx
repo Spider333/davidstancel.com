@@ -42,7 +42,7 @@ export default function TerminalBox() {
             transition={{ delay: 1.2 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">E-resident:</span> Estonia, Palau, Prospera (Honduras)
+            <span className="text-[#00FFAA]/80">E-resident:</span> Estonia, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, Prospera (Honduras)
           </motion.div>
         </div>
 
