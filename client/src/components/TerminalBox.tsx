@@ -34,7 +34,7 @@ export default function TerminalBox() {
             transition={{ delay: 1 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Read:</span> <a href="https://www.martinus.sk/?uItem=746" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">My book on evolution of Bitcoin and cryptocurrencies</a>
+            <span className="text-[#00FFAA]/80">Read:</span> <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">My book on evolution of Bitcoin and Cryptocurrencies</a>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0 }}
