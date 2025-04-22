@@ -13,27 +13,27 @@ export const keywords: Keyword[] = [
     content: (
       <div className="space-y-6">
         <p className="text-white/90">
-          I started to research Bitcoin and cryptocurrencies in 2012 and I organized my first Bitcoin event in early 2013 at my Alma mater at Masaryk University in Czechia. Shortly after that I started to write my bachelor thesis which was dedicated to use of BTC and ETH, and I have been falling down the rabbit hole ever since while dedicating my life to studying, teaching, and building the cryptocurrency space.
+          I started to research Bitcoin and cryptocurrencies in 2012 and I organized my first Bitcoin event in early 2013 at my Alma mater at <a href="https://muni.cz/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Masaryk University</a> in Czechia. Shortly after that I started to write my bachelor thesis which was dedicated to use of BTC and ETH, and I have been falling down the rabbit hole ever since while dedicating my life to studying, teaching, and building the cryptocurrency space.
         </p>
         
         <p className="text-white/90">
-          In the last decade I have organized and talked on 100+ meetups, lectures & conferences, while continuing my research during my Master of Science in Digital Currencies at the University of Nicosia in Cyprus, and lately also my PhD at Sorbonne Law School in Paris. In 2019 I started to teach the first full semester long cryptocurrency university course, which continues to be taught at the Slovak University of Technology.
+          In the last decade I have organized and talked on 100+ meetups, lectures & conferences, while continuing my research during my <a href="https://www.unic.ac.cy/blockchain/msc-digital-currency/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Master of Science in Digital Currencies</a> at the University of Nicosia in Cyprus, and lately also my PhD at <a href="https://www.pantheonsorbonne.fr/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Sorbonne Law School</a> in Paris. In 2019 I started to teach the first full semester long cryptocurrency university course, which continues to be taught at the <a href="https://www.stuba.sk/en.html?page_id=132" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Slovak University of Technology</a>.
         </p>
         
         <p className="text-white/90">
-          I cofounded multiple educational NGOs such as Students for Liberty (CZ), Blockchain Slovakia, and Paralelna Polis that provided education in the area of Crypto, Economics, & Technology.
+          I cofounded multiple educational NGOs such as <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Students for Liberty</a> (CZ), <a href="https://blockchainslovakia.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Blockchain Slovakia</a>, and <a href="https://paralelnapolis.sk/en/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Paralelna Polis</a> that provided education in the area of Crypto, Economics, & Technology.
         </p>
         
         <p className="text-white/90">
-          While advising to many startups, enterprises, funds and even government institutions in the area of cryptocurrencies, I have cofounded some companies myself. The last few years I served as CTO and Board Member at Cryptocurrency brokerage company Fumbi.
+          While advising to many startups, enterprises, funds and even government institutions in the area of cryptocurrencies, I have cofounded some companies myself. The last few years I served as CTO and Board Member at Cryptocurrency brokerage company <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Fumbi</a>.
         </p>
         
         <p className="text-white/90">
-          My many years long research was compressed into my book focused on the history and evolution of Bitcoin and Cryptocurrencies — Coinstory, which got published in 2022.
+          My many years long research was compressed into my book focused on the history and evolution of Bitcoin and Cryptocurrencies — <a href="https://www.martinus.sk/?uItem=746" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Coinstory</a>, which got published in 2022.
         </p>
         
         <p className="text-white/90">
-          Lately my focus is on building Cork Protocol that got accelerated by a16z crypto CSX.
+          Lately my focus is on building <a href="https://www.cork.tech/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Cork Protocol</a> that got accelerated by <a href="https://a16zcrypto.com/posts/article/crypto-startup-accelerator-csx-fall-2023-new-york-city/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">a16z crypto CSX</a>.
         </p>
       </div>
     )
