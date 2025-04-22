@@ -18,7 +18,7 @@ export default function TerminalBox() {
             transition={{ delay: 0.6 }}
             className="text-white/90 leading-relaxed"
           >
-            Crypto OG, Tech Lover, Extropist, Investor
+            <span className="text-[#00FFAA]/80">Traits:</span> Crypto OG, Tech Lover, Extropist, Investor
           </motion.div>
           <motion.div 
             initial={{ opacity: 0 }}
