@@ -34,7 +34,7 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
         return <Briefcase className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'advisor':
         return <Lightbulb className="w-5 h-5 text-[#00FFAA] mr-2" />;
-      case 'speaker':
+      case 'speaker and moderator':
         return <Mic className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'educator':
         return <GraduationCap className="w-5 h-5 text-[#00FFAA] mr-2" />;
