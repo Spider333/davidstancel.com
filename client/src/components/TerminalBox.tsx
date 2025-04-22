@@ -26,7 +26,7 @@ export default function TerminalBox() {
             transition={{ delay: 0.8 }}
             className="text-white/90 leading-relaxed"
           >
-            <span className="text-[#00FFAA]/80">Citizenship:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident of:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> Estonia, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, Prospera (Honduras)
+            <span className="text-[#00FFAA]/80">Citizen:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Estonia</a>, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, <a href="https://www.prospera.co/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Prospera</a>
           </motion.div>
         </div>
 
