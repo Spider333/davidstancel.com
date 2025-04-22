@@ -244,10 +244,8 @@ export const keywords: Keyword[] = [
               </a>
             </div>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4">
-          <div className="bg-[#272727]/40 p-5 rounded-lg">
+          <div className="bg-[#27272727]/40 p-5 rounded-lg">
             <h4 className="text-[#00FFAA] font-medium mb-4 border-b border-[#444444] pb-2">Conferences:</h4>
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -439,7 +437,7 @@ export const keywords: Keyword[] = [
         <p className="text-white/90 mb-6">
           I dedicated few years of my life to map out the Evolution of Bitcoin and crypto in my book - <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Coinstory</a>.
         </p>
-        
+
         <div className="grid grid-cols-2 gap-6 mt-4">
           <div className="text-center">
             <a href="https://coinstory.tech/" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
@@ -450,7 +448,7 @@ export const keywords: Keyword[] = [
             </a>
             <p className="text-xs text-white/70 mt-2">The Evolution of Bitcoin and Crypto</p>
           </div>
-          
+
           <div className="text-center">
             <a href="https://standard.sk/author/david-stancel" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00FFAA]">
               Standard
@@ -683,6 +681,16 @@ export const keywords: Keyword[] = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
+          </div>
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className="text-white font-medium">E-Residency</h4>
+              <p className="text-sm text-white/70">Estonian and Palau E-residency programs</p>
+            </div>
+            <div>
+              <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA]">Palau</a>
+              <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] ml-2">Estonia</a>
+            </div>
           </div>
         </div>
       </div>
