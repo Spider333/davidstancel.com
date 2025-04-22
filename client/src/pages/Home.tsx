@@ -30,7 +30,6 @@ export default function Home() {
                   </svg>
                   Who am I?
                 </h3>
-                <p className="text-white/80 mb-4">Possible answers are the following.</p>
               </div>
               <KeywordAccordion keywords={keywords} />
             </section>
