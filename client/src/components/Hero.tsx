@@ -17,14 +17,14 @@ export default function Hero() {
       </p>
       
       <div className="flex flex-col sm:flex-row gap-6">
-        <div className="flex-1">
+        <div className="flex-1 h-full">
           <TerminalBox />
         </div>
-        <div className="w-full sm:w-auto flex justify-center">
+        <div className="w-full sm:w-auto flex justify-center items-start">
           <img 
             src={actionFigureImage} 
             alt="David Stancel Action Figure" 
-            className="rounded-lg max-h-[400px] object-contain shadow-[0_0_10px_rgba(0,255,170,0.2)]" 
+            className="rounded-lg h-[460px] object-contain shadow-[0_0_10px_rgba(0,255,170,0.2)]" 
           />
         </div>
       </div>
