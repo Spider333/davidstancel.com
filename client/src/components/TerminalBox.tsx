@@ -28,6 +28,14 @@ export default function TerminalBox() {
           >
             <span className="text-[#00FFAA]/80">Citizen:</span> Slovak <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">Resident:</span> Paraguay <span className="text-[#00FFAA]/80">|</span> <span className="text-[#00FFAA]/80">E-resident:</span> <a href="https://e-resident.gov.ee/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Estonia</a>, <a href="https://rns.id/?rc_by=bjTbykrf" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Palau</a>, <a href="https://www.prospera.co/en" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Prospera</a>
           </motion.div>
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1 }}
+            className="text-white/90 leading-relaxed"
+          >
+            <span className="text-[#00FFAA]/80">Follow me:</span> <a href="https://x.com/stancel_david" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">Twitter</a>, <a href="https://www.linkedin.com/in/davidstancel/" target="_blank" rel="noopener noreferrer" className="text-[#00FFAA] hover:underline">LinkedIn</a>
+          </motion.div>
         </div>
 
         <div className="terminal-line">
