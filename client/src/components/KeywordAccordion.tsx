@@ -9,8 +9,8 @@ import {
   BookOpen, 
   Users, 
   Pen, 
-  Contact,
-  CircleUser
+  CircleUser,
+  Heart
 } from 'lucide-react';
 
 interface KeywordAccordionProps {
@@ -45,7 +45,10 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
         return <Pen className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'contact':
         return <CircleUser className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'NGO founder':
+        return <Heart className="w-5 h-5 text-[#00FFAA] mr-2" />;
       default:
+        console.log('No icon for title:', keywordTitle);
         return null;
     }
   };
