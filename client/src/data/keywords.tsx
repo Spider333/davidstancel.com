@@ -81,6 +81,46 @@ export const keywords: Keyword[] = [
     )
   },
   {
+    id: 'consultant',
+    title: 'consultant',
+    content: (
+      <div>
+        <div className="bg-[#1a1f2e] p-6 rounded-lg border border-[#2a3042] mb-6">
+          <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Focus Areas</h4>
+          <div className="flex flex-wrap justify-center gap-3">
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Due Diligence</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">DeFi Investments</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Risk Assessment</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Investment Strategy</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Portfolio Construction</span>
+            <span className="px-4 py-2 bg-[#272727]/80 rounded-md text-sm font-medium">Market Analysis</span>
+          </div>
+        </div>
+
+        <p className="text-white/90 mb-6">
+          I offer strategic consulting services for investment funds, family offices, and high-net-worth individuals looking to navigate the cryptocurrency landscape. My approach combines technical knowledge with market insights to help clients make informed decisions.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-[#272727]/30 p-4 rounded-lg">
+            <div className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center">
+              Private Clients
+            </div>
+            <p className="text-sm text-white/70 mt-2 pl-2">Strategic consulting for high-net-worth individuals and family offices</p>
+          </div>
+
+          <div className="bg-[#272727]/30 p-4 rounded-lg">
+            <div className="mb-3 px-3 py-1.5 bg-[#272727]/60 rounded text-sm inline-flex items-center">
+              Funds & Institutions
+            </div>
+            <p className="text-sm text-white/70 mt-2 pl-2">Portfolio construction and DeFi strategy for investment funds</p>
+          </div>
+        </div>
+      </div>
+    )
+  },
+  
+  {
     id: 'defi',
     title: 'advisor',
     content: (
