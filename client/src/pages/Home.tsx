@@ -13,6 +13,10 @@ export default function Home() {
         <title>David Stancel | Crypto & Tech Enthusiast</title>
         <meta name="description" content="Personal website of David Stancel with expertise in cryptocurrency, blockchain technology, and digital innovation" />
         <meta name="keywords" content="David Stancel, crypto, blockchain, technology, personal website, digital innovation, web3, defi, nfts" />
+        <meta property="og:title" content="David Stancel | Crypto & Tech Enthusiast" />
+        <meta property="og:description" content="Personal website of David Stancel with expertise in cryptocurrency, blockchain technology, and digital innovation" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://david-stancel-portfolio.replit.app/images/david-stancel-og.jpg" />
       </Helmet>
       
       <div className="min-h-screen flex flex-col bg-black text-white">
