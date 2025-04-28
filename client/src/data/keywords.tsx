@@ -10,6 +10,11 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Card, CardContent } from "@/components/ui/card";
 import { ImageIcon } from 'lucide-react';
 
+// Import images directly
+import ds25Image from '../assets/images/ds25.jpg';
+import xxooioImage from '../assets/images/xxooio.jpg';
+import d24Image from '../assets/images/d24.jpg';
+
 export const keywords: Keyword[] = [
   {
     id: 'story',
@@ -777,7 +782,7 @@ export const keywords: Keyword[] = [
               <Card className="border-0 bg-transparent shadow-none">
                 <CardContent className="flex items-center justify-center p-1">
                   <img 
-                    src="/images/gallery/ds25.jpg" 
+                    src={ds25Image} 
                     alt="David Stancel speaking on a panel" 
                     className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
                   />
@@ -788,7 +793,7 @@ export const keywords: Keyword[] = [
               <Card className="border-0 bg-transparent shadow-none">
                 <CardContent className="flex items-center justify-center p-1">
                   <img 
-                    src="/images/gallery/xxooio.jpg" 
+                    src={xxooioImage} 
                     alt="David Stancel presenting at a conference" 
                     className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
                   />
@@ -799,7 +804,7 @@ export const keywords: Keyword[] = [
               <Card className="border-0 bg-transparent shadow-none">
                 <CardContent className="flex items-center justify-center p-1">
                   <img 
-                    src="/images/gallery/d24.jpg" 
+                    src={d24Image} 
                     alt="David Stancel at Innovation Geeks panel" 
                     className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
                   />
