@@ -49,6 +49,28 @@ export default function TerminalBox() {
                   <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Amagi Labs</a> - Bootstrapped Web 3 Consulting Agency
                 </div>
               </div>
+              
+
+            </motion.div>
+            
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.4 }}
+              className="text-white/90 leading-relaxed pt-1"
+            >
+              <span className="text-[#00FFAA]/80">NGOs Co-founded:</span>
+              <div className="ml-2 mt-1 space-y-1">
+                <div>
+                  <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Students for Liberty</a> - Educational NGO (Czech Republic)
+                </div>
+                <div>
+                  <a href="https://blockchainslovakia.sk/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Blockchain Slovakia</a> - Crypto education & community
+                </div>
+                <div>
+                  <a href="https://paralelnapolis.sk/en/paralelna-polis/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Paralelna Polis</a> - Crypto, Economics & Technology education
+                </div>
+              </div>
             </motion.div>
           </div>
 
@@ -62,7 +84,7 @@ export default function TerminalBox() {
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.6 }}
+        transition={{ delay: 1.8 }}
         className="flex flex-row space-x-0 justify-between w-full"
       >
         <a 
