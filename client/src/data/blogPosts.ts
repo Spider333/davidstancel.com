@@ -6,6 +6,7 @@ export interface BlogPost {
   date: string;
   author: string;
   tags: string[];
+  readingTime?: number; // Reading time in minutes
 }
 
 // Import blog posts from the blog directory

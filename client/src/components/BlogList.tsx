@@ -3,6 +3,8 @@ import { Link } from 'wouter';
 import { Badge } from '@/components/ui/badge';
 import { blogPosts } from '../data/blogPosts';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
+import { Clock } from 'lucide-react';
+import { formatReadingTime } from '../blog/readingTime';
 
 const BlogList = () => {
   return (
@@ -30,12 +32,21 @@ const BlogList = () => {
                   </Badge>
                 ))}
               </div>
-              <div className="text-sm text-white/60">
-                {new Date(post.date).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })} by {post.author}
+              <div className="flex justify-between items-center w-full">
+                <div className="text-sm text-white/60">
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })} by {post.author}
+                </div>
+                
+                {post.readingTime && (
+                  <div className="flex items-center text-sm text-white/60">
+                    <Clock className="h-3 w-3 mr-1" />
+                    <span>{formatReadingTime(post.readingTime)}</span>
+                  </div>
+                )}
               </div>
             </CardFooter>
           </Card>

@@ -2,8 +2,9 @@ import React from 'react';
 import { useParams, Link } from 'wouter';
 import { blogPosts } from '../data/blogPosts';
 import { Badge } from '@/components/ui/badge';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Clock } from 'lucide-react';
 import { MarkdownRenderer } from '../blog/markdown';
+import { formatReadingTime } from '../blog/readingTime';
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -43,12 +44,21 @@ const BlogPost = () => {
             ))}
           </div>
           
-          <div className="text-sm text-white/60">
-            {new Date(post.date).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric'
-            })} by {post.author}
+          <div className="flex items-center justify-between">
+            <div className="text-sm text-white/60">
+              {new Date(post.date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })} by {post.author}
+            </div>
+            
+            {post.readingTime && (
+              <div className="flex items-center text-sm text-white/60">
+                <Clock className="h-3 w-3 mr-1" />
+                <span>{formatReadingTime(post.readingTime)}</span>
+              </div>
+            )}
           </div>
         </header>
         

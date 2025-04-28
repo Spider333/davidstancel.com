@@ -10,7 +10,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
-import { X } from 'lucide-react';
+import { X, Clock } from 'lucide-react';
+import { calculateReadingTime, formatReadingTime } from '../blog/readingTime';
 
 const BlogAdmin = () => {
   const { toast } = useToast();

@@ -1,4 +1,5 @@
 import { BlogPost } from '../data/blogPosts';
+import { calculateReadingTime } from './readingTime';
 
 // In a production environment, this would be dynamically loaded from the filesystem
 // For this demo, we're hardcoding the imports to simulate dynamic loading
@@ -48,6 +49,9 @@ function parseFrontmatter(markdown: string): { frontmatter: any, content: string
 function processMarkdownFile(markdownContent: string): BlogPost {
   const { frontmatter, content } = parseFrontmatter(markdownContent);
   
+  // Calculate reading time for the post
+  const readingTime = calculateReadingTime(content);
+  
   return {
     id: frontmatter.id || '',
     title: frontmatter.title || '',
@@ -55,7 +59,8 @@ function processMarkdownFile(markdownContent: string): BlogPost {
     content: content,
     date: frontmatter.date || new Date().toISOString().split('T')[0],
     author: frontmatter.author || 'David Stancel',
-    tags: frontmatter.tags || []
+    tags: frontmatter.tags || [],
+    readingTime // Include reading time in minutes
   };
 }
 
