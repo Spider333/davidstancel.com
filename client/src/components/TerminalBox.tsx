@@ -37,10 +37,18 @@ export default function TerminalBox() {
               transition={{ delay: 1.2 }}
               className="text-white/90 leading-relaxed pt-1"
             >
-              <span className="text-[#00FFAA]/80">Projects:</span> 
-              <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="ml-2 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Cork</a>, 
-              <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="ml-1 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Fumbi</a>, 
-              <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="ml-1 text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Amagi Labs</a>
+              <span className="text-[#00FFAA]/80">Companies:</span>
+              <div className="ml-2 mt-1 space-y-1">
+                <div>
+                  <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Cork</a> - Novel DeFi primitive (7M raised)
+                </div>
+                <div>
+                  <a href="https://fumbi.network/en" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Fumbi</a> - Crypto brokerage company (4M raised, 150k users)
+                </div>
+                <div>
+                  <a href="https://amagilabs.io/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Amagi Labs</a> - Bootstrapped Web 3 Consulting Agency
+                </div>
+              </div>
             </motion.div>
           </div>
 

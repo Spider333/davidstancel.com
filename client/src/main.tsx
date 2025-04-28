@@ -3,16 +3,39 @@ import App from "./App";
 import "./index.css";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-// Add global error handler to catch unhandled Promise rejections
+// Improved global error handling for unhandled Promise rejections
 window.addEventListener('unhandledrejection', (event) => {
-  console.log('Unhandled Promise Rejection:', event.reason);
-  event.preventDefault(); // This prevents it from being displayed in the console
+  // Check for crypto wallet or extension-related errors, which are common and can be safely ignored
+  const errorMsg = String(event.reason?.message || '');
+  const isWalletError = errorMsg.includes('User rejected') || 
+                       errorMsg.includes('rejected the request') || 
+                       errorMsg.toLowerCase().includes('wallet');
+  
+  // Log the error, but don't display it in user console
+  console.log('[Handled] Unhandled Promise Rejection:', 
+    isWalletError ? 'Non-critical extension error' : event.reason);
+  
+  // Prevent the error from propagating to console
+  event.preventDefault();
 });
 
-// Create error boundary for the entire app
+// Enhanced error boundary for the entire app
 window.onerror = function(msg, url, lineNo, columnNo, error) {
-  console.log('Global error handler:', { msg, url, lineNo, columnNo, error });
-  return true; // Prevents the error from being displayed in the console
+  // Filter out non-critical errors
+  const errorMsg = String(msg || '');
+  const errorStr = String(error?.stack || '');
+  
+  // Check if error is from browser extension or non-critical source
+  const isExtensionError = 
+    url?.includes('chrome-extension://') || 
+    errorStr?.includes('chrome-extension://') ||
+    url?.includes('extension://');
+  
+  console.log('[Handled] Global error:', 
+    isExtensionError ? 'Non-critical extension error' : { msg, url, lineNo, columnNo });
+  
+  // Prevent the error from being displayed in the console
+  return true;
 };
 
 createRoot(document.getElementById("root")!).render(
