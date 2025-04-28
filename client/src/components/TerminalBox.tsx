@@ -55,13 +55,13 @@ export default function TerminalBox() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6 }}
-        className="flex flex-row space-x-4 justify-center"
+        className="flex flex-row space-x-0 justify-between w-full"
       >
         <a 
           href="https://x.com/stancel_david" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="bg-[#00FFAA] hover:bg-[#00FFAA]/90 text-black font-medium py-2 px-4 rounded-md transition-colors duration-200"
+          className="bg-black hover:bg-black/80 text-white border-2 border-[#00FFAA] font-medium py-2 rounded-l-md transition-all duration-200 text-center flex-1 hover:shadow-[0_0_8px_#00FFAA]"
         >
           Twitter
         </a>
@@ -69,7 +69,7 @@ export default function TerminalBox() {
           href="https://www.linkedin.com/in/davidstancel/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="bg-[#00FFAA] hover:bg-[#00FFAA]/90 text-black font-medium py-2 px-4 rounded-md transition-colors duration-200"
+          className="bg-black hover:bg-black/80 text-white border-t-2 border-b-2 border-x-0 border-[#00FFAA] font-medium py-2 transition-all duration-200 text-center flex-1 hover:shadow-[0_0_8px_#00FFAA]"
         >
           LinkedIn
         </a>
@@ -77,7 +77,7 @@ export default function TerminalBox() {
           href="https://davidstancel.substack.com/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="bg-[#00FFAA] hover:bg-[#00FFAA]/90 text-black font-medium py-2 px-4 rounded-md transition-colors duration-200"
+          className="bg-black hover:bg-black/80 text-white border-2 border-[#00FFAA] font-medium py-2 rounded-r-md transition-all duration-200 text-center flex-1 hover:shadow-[0_0_8px_#00FFAA]"
         >
           Substack
         </a>
