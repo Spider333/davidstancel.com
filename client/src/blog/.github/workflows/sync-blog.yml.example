@@ -1,0 +1,34 @@
+name: Sync Blog Posts
+
+# This is an example workflow file to show how you could set up automated
+# syncing from this repository to your Windsurf instance
+# Rename to sync-blog.yml to activate it
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'client/src/blog/posts/**'
+
+jobs:
+  sync-to-windsurf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up webhook data
+        run: |
+          # This would create a payload with the updated blog post information
+          # You could create a webhook endpoint in your Windsurf instance to receive this data
+          echo "Preparing blog post data for Windsurf sync"
+          
+      - name: Send webhook to Windsurf
+        run: |
+          # This would trigger a webhook on your Windsurf instance
+          # Example (replace with your actual endpoint):
+          # curl -X POST -H "Content-Type: application/json" -d @payload.json https://your-windsurf-instance.com/api/blog-sync
+          echo "Sending webhook to Windsurf"
+          
+      - name: Log sync status
+        run: echo "Blog posts synced to Windsurf"

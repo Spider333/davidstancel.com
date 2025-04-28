@@ -3,6 +3,7 @@ import { useParams, Link } from 'wouter';
 import { blogPosts } from '../data/blogPosts';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft } from 'lucide-react';
+import { MarkdownRenderer } from '../blog/markdown';
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -51,8 +52,8 @@ const BlogPost = () => {
           </div>
         </header>
         
-        <div className="prose prose-invert max-w-none text-white/90">
-          <p>{post.content}</p>
+        <div className="prose prose-invert max-w-none">
+          <MarkdownRenderer content={post.content} />
         </div>
       </article>
     </div>

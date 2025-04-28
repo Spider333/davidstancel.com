@@ -87,8 +87,11 @@ const BlogAdmin = () => {
       tags: newPost.tags || []
     };
 
-    // In a real implementation, this would send the post to a server
-    // For now, we'll just add it to our local state
+    // Generate markdown content
+    const markdown = generateMarkdownFile(fullPost);
+    
+    // In a real implementation, this would save the file to the file system
+    // For now, we'll show it to the user and add it to local state
     setPosts(prev => [fullPost, ...prev]);
 
     // Clear the form
@@ -105,8 +108,41 @@ const BlogAdmin = () => {
       description: 'Your blog post has been created successfully'
     });
 
-    // Instruction for the user
-    alert('Post created! In a real implementation, this would be saved to a database. For now, posts will only persist until page refresh. To make posts permanent, you would need to edit the blogPosts.ts file.');
+    // Show the markdown content that would be saved
+    const filename = `${fullPost.id}.md`;
+    alert(`Post created! In a production environment, this would save the following markdown file to 'client/src/blog/posts/${filename}':\n\n${markdown}\n\nTo make posts permanent, copy this content to a new file in the blog/posts directory.`);
+    
+    // Copy to clipboard for easy pasting
+    navigator.clipboard.writeText(markdown)
+      .then(() => {
+        toast({
+          title: 'Copied to clipboard',
+          description: 'Markdown content has been copied to your clipboard'
+        });
+      })
+      .catch(err => {
+        console.error('Failed to copy: ', err);
+      });
+  };
+
+  // Function to generate markdown file content
+  const generateMarkdownFile = (post: BlogPost) => {
+    // Create frontmatter
+    const frontmatter = [
+      '---',
+      `id: ${post.id}`,
+      `title: ${post.title}`,
+      `tagline: ${post.tagline}`,
+      `date: ${post.date}`,
+      `author: ${post.author}`,
+      'tags:',
+      ...post.tags.map(tag => `  - ${tag}`),
+      '---',
+      '',
+    ].join('\n');
+
+    // Combine with content
+    return `${frontmatter}${post.content}`;
   };
 
   return (
