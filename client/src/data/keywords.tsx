@@ -453,6 +453,10 @@ export const keywords: Keyword[] = [
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#00FFAA] mr-2">•</span>
+                    T-Mobile
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#00FFAA] mr-2">•</span>
                     O2 Slovakia
                   </li>
                 </ul>
