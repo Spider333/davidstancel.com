@@ -12,7 +12,8 @@ import {
   Pen, 
   CircleUser,
   Heart,
-  History
+  History,
+  ImageIcon
 } from 'lucide-react';
 
 interface KeywordAccordionProps {
@@ -51,6 +52,8 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
         return <Heart className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'my story':
         return <History className="w-5 h-5 text-[#00FFAA] mr-2" />;
+      case 'gallery':
+        return <ImageIcon className="w-5 h-5 text-[#00FFAA] mr-2" />;
       default:
         console.log('No icon for title:', keywordTitle);
         return null;

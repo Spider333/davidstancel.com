@@ -6,6 +6,10 @@ export interface Keyword {
   content: ReactNode;
 }
 
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+import { ImageIcon } from 'lucide-react';
+
 export const keywords: Keyword[] = [
   {
     id: 'story',
@@ -758,6 +762,56 @@ export const keywords: Keyword[] = [
             </div>
           </div>
         </div>
+      </div>
+    )
+  },
+  {
+    id: 'gallery',
+    title: 'gallery',
+    content: (
+      <div className="py-4">
+        <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Speaking & Events</h4>
+        <Carousel className="w-full max-w-3xl mx-auto">
+          <CarouselContent>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src="/images/gallery/ds25.jpg" 
+                    alt="David Stancel speaking on a panel" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src="/images/gallery/xxooio.jpg" 
+                    alt="David Stancel presenting at a conference" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src="/images/gallery/d24.jpg" 
+                    alt="David Stancel at Innovation Geeks panel" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+          </CarouselContent>
+          <div className="flex justify-center mt-4">
+            <CarouselPrevious className="mr-2 bg-[#272727] hover:bg-[#333333] border-[#00FFAA]/30 hover:border-[#00FFAA]" />
+            <CarouselNext className="ml-2 bg-[#272727] hover:bg-[#333333] border-[#00FFAA]/30 hover:border-[#00FFAA]" />
+          </div>
+        </Carousel>
       </div>
     )
   }
