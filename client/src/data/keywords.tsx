@@ -14,6 +14,15 @@ import { ImageIcon } from 'lucide-react';
 import ds25Image from '../assets/images/ds25.jpg';
 import xxooioImage from '../assets/images/xxooio.jpg';
 import d24Image from '../assets/images/d24.jpg';
+import vitalikImage from '../assets/images/vitalik.jpg';
+import d23Image from '../assets/images/d23.jpg';
+import novycasImage from '../assets/images/novycas.jpg';
+import pwc2Image from '../assets/images/pwc2.jpg';
+import d22Image from '../assets/images/D22.jpg';
+import dBWImage from '../assets/images/dBW.jpg';
+import d20Image from '../assets/images/d20.jpg';
+import d18Image from '../assets/images/d18.jpg';
+import d5Image from '../assets/images/d5.jpg';
 
 export const keywords: Keyword[] = [
   {
@@ -776,7 +785,11 @@ export const keywords: Keyword[] = [
     content: (
       <div className="py-4">
         <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Speaking & Events</h4>
-        <Carousel className="w-full max-w-3xl mx-auto">
+        <Carousel 
+          className="w-full max-w-3xl mx-auto"
+          opts={{
+            loop: true,
+          }}>
           <CarouselContent>
             <CarouselItem>
               <Card className="border-0 bg-transparent shadow-none">
@@ -811,10 +824,113 @@ export const keywords: Keyword[] = [
                 </CardContent>
               </Card>
             </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={vitalikImage} 
+                    alt="David Stancel with Vitalik Buterin at Devcon" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d23Image} 
+                    alt="David Stancel speaking to an audience" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={novycasImage} 
+                    alt="David Stancel in a newspaper article about Bitcoin" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={pwc2Image} 
+                    alt="David Stancel speaking at PwC event" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d22Image} 
+                    alt="David Stancel on a blockchain event poster" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={dBWImage} 
+                    alt="David Stancel speaking at a formal dinner event" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d20Image} 
+                    alt="David Stancel being filmed for an interview" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d18Image} 
+                    alt="David Stancel presenting at a conference" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d5Image} 
+                    alt="David Stancel on a blockchain panel discussion" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
           </CarouselContent>
           <div className="flex justify-center mt-4">
             <CarouselPrevious className="mr-2 bg-[#272727] hover:bg-[#333333] border-[#00FFAA]/30 hover:border-[#00FFAA]" />
             <CarouselNext className="ml-2 bg-[#272727] hover:bg-[#333333] border-[#00FFAA]/30 hover:border-[#00FFAA]" />
+          </div>
+          <div className="text-center mt-6 text-white/50 text-sm">
+            <span className="inline-block mr-3">Use arrows to navigate</span>
+            <span className="inline-block">{1} / {12}</span>
           </div>
         </Carousel>
       </div>
