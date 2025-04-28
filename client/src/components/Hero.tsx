@@ -12,7 +12,7 @@ export default function Hero() {
         <span className="text-[#00FFAA]">]</span>
       </h2>
       <p className="text-lg sm:text-xl text-white/80 leading-relaxed mb-8">
-        Bitcoin, Ethereum, DeFi, Freedom, Investing, Austrian Economics, Longevity{' '}
+        Bitcoin, Ethereum, DeFi, Freedom, Investing, Austrian Economics, Longevity, Sovereign Individual{' '}
         <span className="inline-block ml-1 opacity-60">// Not financial advice</span>
       </p>
       
