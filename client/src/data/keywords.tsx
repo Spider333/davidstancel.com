@@ -82,7 +82,7 @@ export const keywords: Keyword[] = [
   },
   {
     id: 'defi',
-    title: 'advisor',
+    title: 'advisor & consultant',
     content: (
       <div>
 

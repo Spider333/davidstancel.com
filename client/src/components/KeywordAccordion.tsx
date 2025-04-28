@@ -33,7 +33,7 @@ export default function KeywordAccordion({ keywords }: KeywordAccordionProps) {
     switch (keywordTitle) {
       case 'entrepreneur':
         return <Briefcase className="w-5 h-5 text-[#00FFAA] drop-shadow-[0_0_3px_rgba(0,255,170,0.5)] mr-2" />;
-      case 'advisor':
+      case 'advisor & consultant':
         return <Lightbulb className="w-5 h-5 text-[#00FFAA] mr-2" />;
       case 'speaker':
         return <Mic className="w-5 h-5 text-[#00FFAA] mr-2" />;
