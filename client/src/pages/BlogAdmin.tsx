@@ -80,12 +80,14 @@ const BlogAdmin = () => {
     }
 
     // Create new post
+    const readingTime = calculateReadingTime(newPost.content || '');
     const fullPost: BlogPost = {
       ...newPost as any,
       id: newPost.id || generateId(newPost.title || 'post'),
       date: new Date().toISOString().split('T')[0],
       author: 'David Stancel',
-      tags: newPost.tags || []
+      tags: newPost.tags || [],
+      readingTime
     };
 
     // Generate markdown content
@@ -145,6 +147,9 @@ const BlogAdmin = () => {
     // Combine with content
     return `${frontmatter}${post.content}`;
   };
+  
+  // Calculate reading time for new post content
+  const estimatedReadingTime = newPost.content ? calculateReadingTime(newPost.content) : 0;
 
   return (
     <>
@@ -204,7 +209,15 @@ const BlogAdmin = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="content" className="text-white">Content</Label>
+                    <div className="flex justify-between items-center">
+                      <Label htmlFor="content" className="text-white">Content</Label>
+                      {newPost.content && (
+                        <div className="flex items-center text-sm text-white/60">
+                          <Clock className="h-3 w-3 mr-1" />
+                          <span>{formatReadingTime(estimatedReadingTime)}</span>
+                        </div>
+                      )}
+                    </div>
                     <Textarea 
                       id="content" 
                       name="content"
@@ -286,12 +299,20 @@ const BlogAdmin = () => {
                       ))}
                     </div>
                   </CardContent>
-                  <CardFooter className="text-sm text-white/60">
-                    {new Date(post.date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric'
-                    })} by {post.author}
+                  <CardFooter className="flex justify-between items-center text-sm text-white/60">
+                    <div>
+                      {new Date(post.date).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                      })} by {post.author}
+                    </div>
+                    {post.readingTime && (
+                      <div className="flex items-center">
+                        <Clock className="h-3 w-3 mr-1" />
+                        <span>{formatReadingTime(post.readingTime)}</span>
+                      </div>
+                    )}
                   </CardFooter>
                 </Card>
               ))}

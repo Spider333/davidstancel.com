@@ -20,6 +20,7 @@ blog/
 1. Each blog post is stored as a separate markdown file in the `posts/` directory
 2. The `index.ts` file loads all these markdown files and makes them available to the React components
 3. The `markdown.tsx` component renders the markdown content as React components
+4. The `readingTime.ts` utility automatically calculates reading time in minutes for each post
 
 ## Creating a New Blog Post
 
