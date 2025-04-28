@@ -14,9 +14,9 @@ export default function Header() {
           <a href="https://coinstory.tech" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#00FFAA] transition-colors text-base font-medium">
             MY BOOK
           </a>
-          <a href="https://davidstancel.substack.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#00FFAA] transition-colors text-base font-medium">
+          <Link href="/blog" className="text-white hover:text-[#00FFAA] transition-colors text-base font-medium">
             BLOG
-          </a>
+          </Link>
         </div>
       </div>
     </header>

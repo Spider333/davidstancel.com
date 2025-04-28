@@ -1,14 +1,15 @@
 import React, { ReactNode } from 'react';
+import { Link } from 'wouter';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+import { ImageIcon } from 'lucide-react';
+import { blogPosts } from './blogPosts';
 
 export interface Keyword {
   id: string;
   title: string;
   content: ReactNode;
 }
-
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
-import { ImageIcon } from 'lucide-react';
 
 // Import images directly
 import ds25Image from '../assets/images/ds25.jpg';
@@ -34,6 +35,44 @@ import d4Image from '../assets/images/d4.jpg';
 import d2Image from '../assets/images/d2.jpg';
 
 export const keywords: Keyword[] = [
+  {
+    id: 'blog',
+    title: 'blog',
+    content: (
+      <div className="py-4">
+        <h4 className="text-[#00FFAA] font-medium mb-5 text-center text-xl">Latest Articles</h4>
+        <div className="text-center mb-8">
+          <Link href="/blog" className="inline-block px-6 py-3 bg-[#272727] hover:bg-[#333333] border border-[#00FFAA]/30 hover:border-[#00FFAA] rounded-md text-white transition-all duration-300">
+            View All Articles
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {blogPosts.slice(0, 3).map(post => (
+            <div key={post.id} className="bg-[#272727]/40 border border-[#3a3a3a] hover:border-[#00FFAA]/50 rounded-lg p-4 transition-colors duration-300">
+              <h3 className="text-lg font-medium mb-2">
+                <Link href={`/blog/${post.id}`} className="text-white hover:text-[#00FFAA] transition-colors">
+                  {post.title}
+                </Link>
+              </h3>
+              <p className="text-white/70 text-sm mb-3">{post.tagline}</p>
+              <div className="flex justify-between items-center">
+                <span className="text-white/50 text-xs">
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric'
+                  })}
+                </span>
+                <Link href={`/blog/${post.id}`} className="text-[#00FFAA] text-sm hover:underline">
+                  Read more
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  },
   {
     id: 'story',
     title: 'my story',
