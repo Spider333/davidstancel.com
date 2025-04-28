@@ -37,7 +37,7 @@ export default function TerminalBox() {
               transition={{ delay: 1.2 }}
               className="text-white/90 leading-relaxed pt-1"
             >
-              <span className="text-[#00FFAA]/80">Companies:</span>
+              <span className="text-[#00FFAA]/80">Companies Cofounded:</span>
               <div className="ml-2 mt-1 space-y-1">
                 <div>
                   <a href="https://cork.tech" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Cork</a> - Novel DeFi primitive (7M raised)
@@ -59,7 +59,7 @@ export default function TerminalBox() {
               transition={{ delay: 1.4 }}
               className="text-white/90 leading-relaxed pt-1"
             >
-              <span className="text-[#00FFAA]/80">NGOs Co-founded:</span>
+              <span className="text-[#00FFAA]/80">NGOs Cofounded:</span>
               <div className="ml-2 mt-1 space-y-1">
                 <div>
                   <a href="https://studentsforliberty.org/" target="_blank" rel="noopener noreferrer" className="text-white decoration-[#00FFAA] underline decoration-1 hover:decoration-2">Students for Liberty</a> - Educational NGO (Czech Republic)
