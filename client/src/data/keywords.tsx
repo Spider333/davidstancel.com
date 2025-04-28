@@ -23,6 +23,15 @@ import dBWImage from '../assets/images/dBW.jpg';
 import d20Image from '../assets/images/d20.jpg';
 import d18Image from '../assets/images/d18.jpg';
 import d5Image from '../assets/images/d5.jpg';
+import d13Image from '../assets/images/d13.jpg';
+import d12Image from '../assets/images/d12.jpg';
+import d11Image from '../assets/images/d11.jpg';
+import d10Image from '../assets/images/d10.jpg';
+import d9Image from '../assets/images/d9.jpg';
+import d7Image from '../assets/images/d7.jpg';
+import d6Image from '../assets/images/d6.jpg';
+import d4Image from '../assets/images/d4.jpg';
+import d2Image from '../assets/images/d2.jpg';
 
 export const keywords: Keyword[] = [
   {
@@ -923,6 +932,105 @@ export const keywords: Keyword[] = [
                 </CardContent>
               </Card>
             </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d13Image} 
+                    alt="David Stancel speaking about Tokenization of Businesses" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d12Image} 
+                    alt="David Stancel during a filming session" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d11Image} 
+                    alt="David Stancel speaking at the European Parliament" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d10Image} 
+                    alt="David Stancel presenting Bitcoin concepts" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d9Image} 
+                    alt="David Stancel at Blockwalks conference" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d7Image} 
+                    alt="David Stancel with a Bitcoin enthusiast" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d6Image} 
+                    alt="David Stancel presenting at a corporate event" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d4Image} 
+                    alt="David Stancel wearing a Bitcoin shirt" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="border-0 bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-1">
+                  <img 
+                    src={d2Image} 
+                    alt="David Stancel at a crypto conference panel" 
+                    className="rounded-lg max-h-[500px] object-contain shadow-[0_0_15px_rgba(0,0,0,0.3)]" 
+                  />
+                </CardContent>
+              </Card>
+            </CarouselItem>
           </CarouselContent>
           <div className="flex justify-center mt-4">
             <CarouselPrevious className="mr-2 bg-[#272727] hover:bg-[#333333] border-[#00FFAA]/30 hover:border-[#00FFAA]" />
@@ -930,7 +1038,7 @@ export const keywords: Keyword[] = [
           </div>
           <div className="text-center mt-6 text-white/50 text-sm">
             <span className="inline-block mr-3">Use arrows to navigate</span>
-            <span className="inline-block">{1} / {12}</span>
+            <span className="inline-block">{1} / {21}</span>
           </div>
         </Carousel>
       </div>
