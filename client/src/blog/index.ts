@@ -3,9 +3,6 @@ import { calculateReadingTime } from './readingTime';
 
 // In a production environment, this would be dynamically loaded from the filesystem
 // For this demo, we're hardcoding the imports to simulate dynamic loading
-import gettingStartedWithBlockchainMd from './posts/getting-started-with-blockchain.md?raw';
-import understandingDefiMd from './posts/understanding-defi.md?raw';
-import nftRevolutionMd from './posts/nft-revolution.md?raw';
 import ethereumStaking2025Md from './posts/ethereum-staking-2025.md?raw';
 import bitcoinYieldStrategies2025Md from './posts/bitcoin-yield-strategies-2025.md?raw';
 import topDefiProjects2025Md from './posts/top-defi-projects-2025.md?raw';
@@ -74,10 +71,7 @@ export function getAllBlogPosts(): BlogPost[] {
   const markdownFiles = [
     topDefiProjects2025Md, // Top DeFi Projects 2025 (newest post)
     bitcoinYieldStrategies2025Md, // Bitcoin yield strategies
-    ethereumStaking2025Md, // Ethereum staking post
-    gettingStartedWithBlockchainMd,
-    understandingDefiMd,
-    nftRevolutionMd
+    ethereumStaking2025Md // Ethereum staking post
   ];
   
   // Process each markdown file and sort by date (newest first)
