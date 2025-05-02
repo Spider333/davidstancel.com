@@ -132,12 +132,25 @@ Running a Lightning node requires technical expertise and the ability to manage 
 
 **Comparing Yield Options: Risk vs. Reward**
 
-| Method | Potential Yield | Risk Level | Technical Complexity |
-|--------|----------------|------------|----------------------|
-| Wrapped Bitcoin | 2-8% APY | Moderate | Moderate |
-| Centralized Exchanges | 1-8% APY | Higher (custodial) | Low |
-| Layer-2 Solutions | 3-10% APY | Moderate to High | Moderate |
-| Lightning Network | 1-3% APY | Low | High |
+**Wrapped Bitcoin**
+- **Potential Yield:** 2-8% APY
+- **Risk Level:** Moderate
+- **Technical Complexity:** Moderate
+
+**Centralized Exchanges**
+- **Potential Yield:** 1-8% APY
+- **Risk Level:** Higher (custodial)
+- **Technical Complexity:** Low
+
+**Layer-2 Solutions**
+- **Potential Yield:** 3-10% APY 
+- **Risk Level:** Moderate to High
+- **Technical Complexity:** Moderate
+
+**Lightning Network**
+- **Potential Yield:** 1-3% APY
+- **Risk Level:** Low
+- **Technical Complexity:** High
 
 **Start Staking Bitcoin This Year**
  
