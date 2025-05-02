@@ -46,10 +46,12 @@ One of the most prominent ways to stake Bitcoin in 2025 is by converting it into
 - wBTC can be used across Ethereum DeFi platforms
 - Earn yield through lending, liquidity pools, or yield farming
 - Convert back to BTC when desired
- 
+
+**How You Generate Income:**
+
 DeFi protocols that support wrapped Bitcoin allow you to earn passive income by providing liquidity in exchange for a portion of transaction fees, or by lending your Bitcoin via custodial platforms to other users. This method is highly attractive to Bitcoin holders because it allows them to maintain exposure to Bitcoin's price while accessing the benefits of the Ethereum DeFi ecosystem.
-  
-**Top Platforms for Wrapped Bitcoin Yield**
+
+**Top Platforms for Wrapped Bitcoin Yield:**
 - [Aave](https://aave.com/) - A decentralized lending protocol where you can lend wBTC and earn interest (Current yield: 2-4% APY)
 - [Curve Finance](https://curve.fi/) - A platform that facilitates liquidity provision with wrapped Bitcoin and other assets (Current yield: 3-6% APY)
 - [Balancer](https://balancer.fi/) - A decentralized exchange (DEX) that allows you to create liquidity pools with wrapped Bitcoin (Current yield: 4-8% APY)
@@ -64,8 +66,8 @@ For those who prefer a more straightforward approach without dealing with the co
 - Lower technical barriers to entry
 - Often includes insurance protection
 - Flexible and fixed-term options available
-  
-**Leading Centralized Exchanges for Bitcoin Yield**
+
+**Leading Centralized Exchanges for Bitcoin Yield:**
 - [Coinbase](https://www.coinbase.com/) – A trusted platform that provides a user-friendly interface and secure custodial services for Bitcoin holders looking to earn rewards (Current yield: 1-2.5% APY)
 - [Binance](https://www.binance.com/) – A leading global exchange offering competitive interest rates for Bitcoin deposits with flexible and locked staking options (Current yield: 2-5% APY)
 - [Nexo](https://nexo.io/) - Provides competitive interest rates for Bitcoin deposits with daily compounding interest (Current yield: 3-8% APY)
@@ -77,7 +79,7 @@ Layer 2 solutions are designed to improve blockchain scalability by enabling mor
 
 As Bitcoin L2 solutions evolve, they are increasingly designed to offer more attractive yield opportunities. Users can deposit their Bitcoin into these platforms and participate in lending markets or liquidity pools, similar to DeFi applications built on Ethereum. This yield generation is likely to draw more Bitcoin holders to L2 platforms, seeking to optimize the returns on their holdings while staying within the Bitcoin network.
 
-**Top Bitcoin Layer-2 Solutions for Yield Generation**
+**Top Bitcoin Layer-2 Solutions for Yield Generation:**
 
 Here are some of the most promising Layer-2 platforms for Bitcoin yield in 2025:
 
