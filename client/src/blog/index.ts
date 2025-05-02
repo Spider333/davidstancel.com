@@ -7,6 +7,7 @@ import gettingStartedWithBlockchainMd from './posts/getting-started-with-blockch
 import understandingDefiMd from './posts/understanding-defi.md?raw';
 import nftRevolutionMd from './posts/nft-revolution.md?raw';
 import ethereumStaking2025Md from './posts/ethereum-staking-2025.md?raw';
+import bitcoinYieldStrategies2025Md from './posts/bitcoin-yield-strategies-2025.md?raw';
 
 // Function to parse frontmatter from markdown
 function parseFrontmatter(markdown: string): { frontmatter: any, content: string } {
@@ -70,7 +71,8 @@ export function getAllBlogPosts(): BlogPost[] {
   // In a production environment, this would scan the directory
   // For this demo, we're using the hardcoded imports
   const markdownFiles = [
-    ethereumStaking2025Md, // Your new Ethereum staking post (listed first to be most recent)
+    bitcoinYieldStrategies2025Md, // Bitcoin yield strategies (newest post)
+    ethereumStaking2025Md, // Ethereum staking post
     gettingStartedWithBlockchainMd,
     understandingDefiMd,
     nftRevolutionMd
