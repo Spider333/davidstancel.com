@@ -75,7 +75,7 @@ While not technically a staking method, the Bitcoin Lightning Network provides a
  
 Running a Lightning node requires technical expertise and the ability to manage the liquidity in your node, but it provides a unique opportunity for Bitcoin holders to earn income without having to trust a third-party platform. The income generated is typically smaller than that of staking methods but can still be a rewarding passive income strategy for those interested in the technical side of Bitcoin's ecosystem.
  
-## Start Staking Bitcoin This Year
+**Start Staking Bitcoin This Year**
  
 Bitcoin staking in 2025 presents exciting opportunities for passive income through various methods, including wrapped Bitcoin, custodial platforms, DeFi protocols, and Layer-2 solutions. Each option comes with its own set of rewards and risks, but they all provide unique ways for Bitcoin holders to earn income without selling their assets.
  
