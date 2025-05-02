@@ -151,7 +151,7 @@ const BlogList = () => {
                 <CardDescription className="text-white/70">{post.tagline}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-white/80 truncate">{post.content}</p>
+                <p className="text-white/80 truncate">{post.content.replace(/\*\*/g, '')}</p>
               </CardContent>
               <CardFooter className="flex flex-col items-start">
                 <div className="flex flex-wrap gap-2 mb-3">
