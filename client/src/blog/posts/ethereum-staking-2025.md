@@ -12,7 +12,7 @@ tags:
   - blockchain
 ---
 
-# Guide to Ethereum Staking in 2025
+**Guide to Ethereum Staking in 2025**
  
 **Why 2025 is the Year to get into Ethereum Staking**
  
